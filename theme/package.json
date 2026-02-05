@@ -1,0 +1,11 @@
+{
+  "name": "slidev-theme-openalex",
+  "version": "1.0.0",
+  "engines": {
+    "slidev": ">=0.50.0"
+  },
+  "slidev": {
+    "colorSchema": "light",
+    "highlighter": "shiki"
+  }
+}

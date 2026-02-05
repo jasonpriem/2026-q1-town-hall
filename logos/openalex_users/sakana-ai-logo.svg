@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>404: Page not found</title>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W770C6CJ1J"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W770C6CJ1J');
+</script>
+<!-- Google Analytics -->
+
+<!-- FB Card data -->
+<meta property="og:title" content="Sakana AI" />
+<meta property="og:type" content="article" />
+<meta property="og:description" content="404: Page not found" />
+<meta property="og:image" content="https://sakana.ai/assets/home/sakana_rect.png" />
+<meta property="og:url" content="https://sakana.ai/" />
+  <!-- Twitter Card data -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@SakanaAILabs">
+<meta name="twitter:title" content="Sakana AI">
+<meta name="twitter:description" content="404: Page not found">
+<meta name="twitter:image" content="https://sakana.ai/assets/home/sakana_rect.png">
+<!-- End cards-->
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Sakana AI">
+<meta name="generator" content="Jekyll v4.2.2">
+<link rel="canonical" href="/404.html">
+
+<link rel="stylesheet" href="/assets/css/index.css">
+
+<link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Blog">
+<!-- blazy load as you go image loader -->
+<script src="/js/blazy.js"></script>
+
+
+
+
+
+
+
+<header>
+  <a href="/" class="title"><img src="/assets/home/sakana_ai_text.svg" width="40%"/></a>
+  <!--<a href="/" class="title">Blog</a>-->
+  <!--<nav><a href="" ></a></nav>
+-->
+</header>
+
+<article>
+  <header><h1>404</h1></header>
+  <p>Page not found</p>
+</article>
+
+
+
+<footer>
+  <div>&copy; <a href="/">Sakana AI 株式会社</a></div>
+  <nav><a href="https://www.linkedin.com/company/sakana-ai/" ><svg aria-label="LinkedIn" class="icon"><use xlink:href="/assets/fontawesome/icons.svg#linkedin"></use></svg></a><a href="https://twitter.com/SakanaAILabs" ><svg aria-label="Twitter" class="icon"><use xlink:href="/assets/fontawesome/icons.svg#twitter"></use></svg></a></nav>
+
+</footer>
+
+
+<script src="/js/blazy_init.js"></script>
+</html>

@@ -1,0 +1,764 @@
+<!DOCTYPE html><html lang="en" data-beasties-container><head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>AI Academic Research Reading App: AI Literature Search Tool; 250 M+ Research Papers | R Discovery</title>
+    <meta name="title" content="AI Academic Research Reading App: AI Literature Search Tool; 250 M+ Research Papers | R Discovery">
+    <meta name="description" content="R Discovery is the best AI academic research reading app and AI literature search tool with the largest scholarly content repository. Access 250M+ research papers, 40 M+ open access free research papers, 8M+ research summaries and highlights, 3M+ pre-prints, 32K+ journals, and 9.5M research topics.">
+    <meta name="keywords" content="Academic Research, Research Discovery, personalised research discovery, scholarly articles, research database">
+    <meta name="url" content="https://discovery.researcher.life/">
+    <meta name="type" content="website">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://discovery.researcher.life/">
+    <meta property="og:title" content="Academic Research Reading: Personalised Research Discovery - R Discovery">
+    <meta property="og:description" content="Make academic research reading a happy habit with R Discovery. Take the search out of research and get access to all the research papers you need in your preferred research subjects. Personalised research discovery with precise and fast paper suggestions. Join us and download our app today!
+">
+    <meta property="og:image" content="https://cdn.researcher.life/logos/r-discovery-full-logo.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://discovery.researcher.life/">
+    <meta name="twitter:title" content="Academic Research Reading: Personalised Research Discovery - R Discovery">
+    <meta name="twitter:description" content="Make academic research reading a happy habit with R Discovery. Take the search out of research and get access to all the research papers you need in your preferred research subjects. Personalised research discovery with precise and fast paper suggestions. Join us and download our app today!
+">
+    <meta name="twitter:image" content="https://cdn.researcher.life/logos/discovery-blue.svg">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "R Discovery",
+        "alternateName": "Discovery",
+        "url": "https://discovery.researcher.life/",
+        "logo": "https://cdn.researcher.life/logos/discovery-blue.svg",
+        "sameAs": ["https://discovery.researcher.life/"]
+      }
+    </script>
+    <base href="/assets/discovery/production/JBUILD196/browser/">
+    <!-- <link rel="icon" type="image/x-icon" href="favicon.ico" /> -->
+    <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.researcher.life/logos/favicon-16x16.png">
+    <link rel="manifest" href="manifest.webmanifest">
+
+    <meta name="theme-color" content="#1976d2">
+    <link rel="preload" href="https://cdn.researcher.life/rlife/fonts/v1/Lato-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="https://cdn.researcher.life/rlife/fonts/v1/Gilroy-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preconnect" href="//cdn.researcher.life">
+    <link rel="dns-prefetch" href="//cdn.researcher.life">
+    <meta name="naver-site-verification" content="ea64ce52bc4f38de6cf674f451178ffa50977e32">
+    <script type="text/javascript">
+      if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
+        window.location.href = 'https://researcher.life/browser-not-supported/index.html';
+      }
+    </script>
+    <style>
+      @font-face {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://cdn.researcher.life/rlife/fonts/v1/Lato-Regular.woff2) format('woff2');
+        /* url(https://cdn.researcher.life/rlife/fonts/v1/Lato-Regular.woff) format('woff'); */
+      }
+      @font-face {
+        font-family: 'Lato';
+        font-style: bold;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://cdn.researcher.life/rlife/fonts/v1/Lato-Bold.woff2) format('woff2');
+        /* url(https://cdn.researcher.life/rlife/fonts/v1/Lato-Bold.woff) format('woff'); */
+      }
+      @font-face {
+        font-family: 'Gilroy Bold';
+        font-style: bold;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://cdn.researcher.life/rlife/fonts/v1/Gilroy-Bold.woff2) format('woff2');
+        /* url(https://cdn.researcher.life/rlife/fonts/v1/Gilroy-Bold.woff) format('woff'); */
+      }
+      @font-face {
+        font-family: 'Gilroy Semibold';
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(https://cdn.researcher.life/rlife/fonts/v1/Gilroy-SemiBold.woff2) format('woff2');
+        /* url(https://cdn.researcher.life/rlife/fonts/v1/Gilroy-SemiBold.woff) format('woff'); */
+      }
+      @font-face {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(https://cdn.researcher.life/rlife/fonts/v1/Gilroy-Light.woff2) format('woff2');
+        /* url(https://cdn.researcher.life/rlife/fonts/v1/Gilroy-Light.woff) format('woff'); */
+      }
+      @font-face {
+        font-family: 'Inter Light';
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(https://cdn.researcher.life/rlife/fonts/Inter-Light.woff2) format('woff2');
+      }
+      @font-face {
+        font-family: 'Inter Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://cdn.researcher.life/rlife/fonts/Inter-Regular.woff2) format('woff2');
+      }
+      @font-face {
+        font-family: 'Inter Medium';
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(https://cdn.researcher.life/rlife/fonts/Inter-Medium.woff2) format('woff2');
+      }
+      @font-face {
+        font-family: 'Inter Semibold';
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(https://cdn.researcher.life/rlife/fonts/Inter-SemiBold.woff2) format('woff2');
+      }
+      @font-face {
+        font-family: 'Inter Bold';
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://cdn.researcher.life/rlife/fonts/Inter-Bold.woff2) format('woff2');
+      }
+      html {
+        font-family: 'Lato', sans-serif;
+      }
+      *,
+      :after,
+      :before {
+        box-sizing: border-box;
+      }
+
+      address,
+      dl,
+      ol,
+      ul {
+        margin-bottom: 1rem;
+      }
+
+      dl,
+      ol,
+      ul {
+        margin-top: 0;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin-top: 0;
+        margin-bottom: 0rem;
+        font-family: 'Gilroy';
+      }
+
+      p {
+        margin-top: 0;
+        margin-bottom: 0rem;
+      }
+      .overflow-hidden {
+        overflow: hidden !important;
+      }
+      .txt-white {
+        color: #fff !important;
+      }
+      .container,
+      .container-fluid,
+      .container-lg,
+      .container-md,
+      .container-sm,
+      .container-xl {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      @media (min-width: 576px) {
+        .container,
+        .container-sm {
+          max-width: 540px;
+        }
+      }
+
+      @media (min-width: 768px) {
+        .container,
+        .container-md,
+        .container-sm {
+          max-width: 720px;
+        }
+      }
+
+      @media (min-width: 992px) {
+        .container,
+        .container-lg,
+        .container-md,
+        .container-sm {
+          max-width: 960px;
+        }
+      }
+
+      @media (min-width: 1200px) {
+        .container,
+        .container-lg,
+        .container-md,
+        .container-sm,
+        .container-xl {
+          max-width: 1140px;
+        }
+      }
+
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+      }
+      .row.row-sm {
+        margin-left: -10px;
+        margin-right: -10px;
+      }
+      .row.row-sm > [class^='col'] {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      .col-xl,
+      .col-xl-auto,
+      .col-xl-12,
+      .col-xl-11,
+      .col-xl-10,
+      .col-xl-9,
+      .col-xl-8,
+      .col-xl-7,
+      .col-xl-6,
+      .col-xl-5,
+      .col-xl-4,
+      .col-xl-3,
+      .col-xl-2,
+      .col-xl-1,
+      .col-lg,
+      .col-lg-auto,
+      .col-lg-12,
+      .col-lg-11,
+      .col-lg-10,
+      .col-lg-9,
+      .col-lg-8,
+      .col-lg-7,
+      .col-lg-6,
+      .col-lg-5,
+      .col-lg-4,
+      .col-lg-3,
+      .col-lg-2,
+      .col-lg-1,
+      .col-md,
+      .col-md-auto,
+      .col-md-12,
+      .col-md-11,
+      .col-md-10,
+      .col-md-9,
+      .col-md-8,
+      .col-md-7,
+      .col-md-6,
+      .col-md-5,
+      .col-md-4,
+      .col-md-3,
+      .col-md-2,
+      .col-md-1,
+      .col-sm,
+      .col-sm-auto,
+      .col-sm-12,
+      .col-sm-11,
+      .col-sm-10,
+      .col-sm-9,
+      .col-sm-8,
+      .col-sm-7,
+      .col-sm-6,
+      .col-sm-5,
+      .col-sm-4,
+      .col-sm-3,
+      .col-sm-2,
+      .col-sm-1,
+      .col,
+      .col-auto,
+      .col-12,
+      .col-11,
+      .col-10,
+      .col-9,
+      .col-8,
+      .col-7,
+      .col-6,
+      .col-5,
+      .col-4,
+      .col-3,
+      .col-2,
+      .col-1 {
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+      }
+      .col-10 {
+        flex: 0 0 83.3333333333%;
+        max-width: 83.3333333333%;
+      }
+      .d-flex {
+        display: flex !important;
+      }
+      .d-none {
+        display: none !important;
+      }
+      .align-items-center {
+        align-items: center !important;
+      }
+      .no-gutters {
+        margin-right: 0;
+        margin-left: 0;
+      }
+      .no-gutters > .col,
+      .no-gutters > [class*='col-'] {
+        padding-right: 0;
+        padding-left: 0;
+      }
+      .justify-content-between {
+        justify-content: space-between !important;
+      }
+      .flex-wrap {
+        flex-wrap: wrap !important;
+      }
+      p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+      }
+      .article-action-sec {
+        justify-content: space-between;
+        align-items: center;
+      }
+      .ml-auto,
+      .mx-auto {
+        margin-left: auto !important;
+      }
+      @media (min-width: 576px) {
+        .col-sm-5 {
+          flex: 0 0 41.6666666667%;
+          max-width: 41.6666666667%;
+        }
+
+        .col-sm-6 {
+          flex: 0 0 50%;
+          max-width: 50%;
+        }
+
+        .col-sm-7 {
+          flex: 0 0 58.3333333333%;
+          max-width: 58.3333333333%;
+        }
+        .d-sm-block {
+          display: block !important;
+        }
+        .col-sm-12 {
+          flex: 0 0 100%;
+          max-width: 100%;
+        }
+        .d-sm-flex {
+          display: flex;
+        }
+      }
+      @media (min-width: 768px) {
+        .col-md-4 {
+          flex: 0 0 33.3333333333%;
+          max-width: 33.3333333333%;
+        }
+        .col-md-6 {
+          flex: 0 0 50%;
+          max-width: 50%;
+        }
+
+        .col-md-7 {
+          flex: 0 0 58.3333333333%;
+          max-width: 58.3333333333%;
+        }
+        .col-md-9 {
+          flex: 0 0 75%;
+          max-width: 75%;
+        }
+        .col-md-12 {
+          flex: 0 0 100%;
+          max-width: 100%;
+        }
+        .d-md-none {
+          display: none !important;
+        }
+        .d-md-block {
+          display: block !important;
+        }
+        .d-md-flex {
+          display: flex !important;
+        }
+        .align-items-md-center {
+          align-items: center !important;
+        }
+        .d-md-inline-flex {
+          display: inline-flex !important;
+        }
+      }
+      .d-md-none {
+        display: none !important;
+      }
+      @media (min-width: 992px) {
+        .col-lg-3 {
+          flex: 0 0 25%;
+          max-width: 25%;
+        }
+        .col-lg-5 {
+          flex: 0 0 41.6666666667%;
+          max-width: 41.6666666667%;
+        }
+
+        .col-lg-6 {
+          flex: 0 0 50%;
+          max-width: 50%;
+        }
+
+        .col-lg-7 {
+          flex: 0 0 58.3333333333%;
+          max-width: 58.3333333333%;
+        }
+        .col-lg-9 {
+          flex: 0 0 75%;
+          max-width: 75%;
+        }
+
+        .col-lg-10 {
+          flex: 0 0 83.3333333333%;
+          max-width: 83.3333333333%;
+        }
+        .order-lg-3 {
+          order: 3;
+        }
+
+        .order-lg-4 {
+          order: 4;
+        }
+
+        .order-lg-5 {
+          order: 5;
+        }
+        .d-lg-none {
+          display: none !important;
+        }
+        .d-lg-block {
+          display: block !important;
+        }
+        .d-lg-flex {
+          display: flex !important;
+        }
+      }
+      @media (min-width: 1200px) {
+        .col-xl-5 {
+          flex: 0 0 41.6666666667%;
+          max-width: 41.6666666667%;
+        }
+        .col-xl-6 {
+          flex: 0 0 50%;
+          max-width: 50%;
+        }
+
+        .col-xl-7 {
+          flex: 0 0 58.3333333333%;
+          max-width: 58.3333333333%;
+        }
+      }
+      body {
+        margin: 0;
+        font-family: 'Lato' !important;
+      }
+      .font-lato {
+        font-family: 'Lato';
+      }
+      .font-Gilroy {
+        font-family: 'Gilroy';
+      }
+      .banner-wrapper {
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        padding: 60px 0 70px;
+      }
+      .banner-img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+      }
+      .banner-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .banner-img:before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: #000000;
+        opacity: 0.65;
+      }
+      .banner-contnet {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .banner-right .banner-title {
+        font-size: 44px;
+        line-height: 52px;
+        color: #ffffff;
+        margin-bottom: 15px;
+        font-weight: 700;
+      }
+      .banner-right .banner-title h1 {
+        display: inline;
+        font-size: 44px;
+        line-height: 52px;
+      }
+      .banner-right p {
+        color: #ffffff;
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 35px;
+      }
+      .btn-outline-white {
+        border: 1px solid #ffffff !important;
+        color: #fff;
+        max-width: 210px;
+        width: 100%;
+        height: 50px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .btn-outline-white:hover {
+        background: #fff;
+        color: #113dcd;
+      }
+      header {
+        position: fixed;
+        left: 0;
+        width: 100%;
+        top: 0;
+        z-index: 100;
+      }
+      header .btn.btn-primary {
+        margin-left: 21px;
+      }
+      .navbar {
+        min-height: 64px;
+        display: flex;
+        padding: 7px 24px;
+        align-items: center;
+      }
+      .navbar .navbar-brand img {
+        height: 40px;
+        width: auto;
+      }
+      .btn {
+        cursor: pointer;
+        font-size: 16px;
+        font-family: 'Gilroy';
+        font-weight: 600;
+        line-height: 1 !important;
+        border-radius: 4px !important;
+        text-transform: none !important;
+        margin: 0;
+        padding: 0.875rem 2rem !important;
+        border: 0 !important;
+        outline: none !important;
+        display: inline-block;
+        text-align: center;
+        transition: all 0.3s ease;
+      }
+      .btn-primary {
+        background-color: #113dcd;
+        color: #fff;
+      }
+      .btn-outline-primary {
+        border: 1px solid #a9b9ed !important;
+        color: #262626;
+        padding-top: 0.75rem !important;
+        padding-bottom: 0.75rem !important;
+      }
+      .btn-outline-primary.disabled {
+        pointer-events: none;
+        color: #b5b5b5;
+      }
+      .btn-outline-primary.disabled img {
+        opacity: 0.4;
+      }
+      .btn-link {
+        color: #113dcd;
+        font-size: 14px;
+        line-height: 20px;
+        font-family: 'Gilroy';
+        font-weight: 700;
+        display: inline-block;
+        cursor: pointer;
+        padding: 0 !important;
+        background: transparent !important;
+        transition: all 0.3s ease;
+      }
+      .published-citation-doi .wrap .data {
+        color: #656565;
+        font-family: 'Lato';
+      }
+      .published-citation-doi .title {
+        margin-right: 8px;
+      }
+      .font-weight-bold {
+        font-weight: 700;
+      }
+      .content-right .action-btns {
+        flex: 1;
+      }
+      .content-right .action-btns .btn.btn-view {
+        max-width: 189px;
+        margin-right: 22px;
+      }
+      .article-action-sec .action-btns .mobile-btn {
+        display: none;
+      }
+      .content-right .action-btns .btn {
+        margin-right: 10.5px;
+        display: inline-flex;
+        align-items: center;
+        padding: 0 !important;
+        align-items: center;
+        justify-content: center;
+        height: 56px;
+        width: 100%;
+      }
+      .content-right .action-btns .btn img {
+        margin-left: 14px;
+      }
+      .content-right.action-btns.btn.btn-download {
+        max-width: 181px;
+        margin-right: 0;
+      }
+      .article-action-sec .actions-icons {
+        display: flex;
+      }
+      #article-header-block .content {
+        position: relative;
+        max-width: 1088px;
+        width: 100%;
+        margin: 0 auto;
+      }
+      .share-sec .share-list {
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        color: #656565;
+      }
+      .share-sec .share-list li {
+        margin-right: 24px;
+        cursor: pointer;
+      }
+      .share-sec .share-list li.share-tl {
+        margin-right: 25px;
+        cursor: inherit;
+      }
+      .share-sec .share-list li:last-child {
+        margin-right: 0;
+      }
+      .share-sec .share-list li a .icon-blue {
+        display: none;
+      }
+      .share-sec .share-list li a .icon-grey {
+        display: block;
+      }
+      .share-sec .share-list li a:hover .icon-blue {
+        display: block;
+      }
+      .share-sec .share-list li a:hover .icon-grey {
+        display: none;
+      }
+      @media screen and (max-width: 767px) {
+        header .btn.btn-primary {
+          margin-left: 15px;
+        }
+        .navbar {
+          min-height: 54px;
+          padding-left: 16px;
+          padding-right: 16px;
+          justify-content: space-between;
+        }
+        .navbar .navbar-brand img {
+          height: 30px;
+        }
+        .dot-menu-loader {
+          width: 0;
+          height: 0;
+          margin-right: 0;
+        }
+        .article-title {
+          font-size: 22px;
+          line-height: 32px;
+          padding-right: 0;
+        }
+        .banner-wrapper {
+          padding: 50px 0 55px;
+        }
+        .banner-contnet {
+          display: block;
+          text-align: center;
+        }
+        .banner-right p {
+          letter-spacing: 0.5px;
+          font-size: 18px;
+          line-height: 26px;
+          margin-bottom: 20px;
+        }
+        .banner-right .banner-title {
+          letter-spacing: 0.5px;
+          font-size: 30px;
+          line-height: 38px;
+        }
+        .banner-right .banner-title h1 {
+          letter-spacing: 0.5px;
+          font-size: 30px;
+          line-height: 38px;
+        }
+        .btn {
+          font-size: 14px;
+          padding: 0.75rem 1rem !important;
+        }
+        .article-action-sec .actions-icons {
+          margin: 39px 0 15px;
+        }
+      }
+    </style>
+  <style>html,body{height:100%}body{margin:0;font-family:Inter Regular!important;color:#262626!important;background-color:#fff!important}html,body{height:100%;margin:0}*,*:before,*:after{box-sizing:border-box}html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";font-size:1rem;font-weight:400;line-height:1.5;color:#212529;text-align:left;background-color:#fff}</style><style>html,body{height:100%}body{margin:0;font-family:Inter Regular!important;color:#262626!important;background-color:#fff!important}.font-weight-bold{font-weight:700}h1{font-family:Gilroy Bold;font-weight:700}@media screen and (max-width: 767px){.container{padding-left:15px!important;padding-right:15px!important}}a,a:hover{text-decoration:none!important}.btn{cursor:pointer;font-size:16px;font-family:Gilroy Semibold;font-weight:600;line-height:1!important;border-radius:4px!important;text-transform:none!important;margin:0;padding:.875rem 2rem!important;border:0!important;outline:none!important;display:inline-block;text-align:center;transition:all .3s ease}@media screen and (max-width: 767px){.btn{font-size:14px;padding:.75rem 1rem!important}}.btn-primary{background-color:#113dcd;color:#fff}@media screen and (min-width: 768px){.btn-primary:hover{box-shadow:0 20px 25px -5px #0000001a,0 10px 10px -5px #0000000a;color:#fff}}.btn-outline-primary{border:1px solid #a9b9ed!important;color:#262626;padding-top:.75rem!important;padding-bottom:.75rem!important}@media screen and (min-width: 768px){.btn-outline-primary:hover{border-color:#113dcd;color:#113dcd}}html,body{height:100%;margin:0}*,*:before,*:after{box-sizing:border-box}html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:rgba(0,0,0,0)}footer,main,section{display:block}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";font-size:1rem;font-weight:400;line-height:1.5;color:#212529;text-align:left;background-color:#fff}h1{margin-top:0;margin-bottom:.5rem}p{margin-top:0;margin-bottom:1rem}ul{margin-top:0;margin-bottom:1rem}b{font-weight:bolder}a{color:#007bff;text-decoration:none;background-color:transparent}a:hover{color:#0056b3;text-decoration:underline}a:not([href]):not([class]){color:inherit;text-decoration:none}a:not([href]):not([class]):hover{color:inherit;text-decoration:none}img{vertical-align:middle;border-style:none}.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width: 576px){.container{max-width:540px}}@media (min-width: 768px){.container{max-width:720px}}@media (min-width: 992px){.container{max-width:960px}}@media (min-width: 1200px){.container{max-width:1140px}}.row{display:flex;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}.no-gutters{margin-right:0;margin-left:0}.no-gutters>[class*=col-]{padding-right:0;padding-left:0}.col-lg-9,.col-lg-3,.col-md-12,.col-md-6,.col-sm-6{position:relative;width:100%;padding-right:15px;padding-left:15px}@media (min-width: 576px){.col-sm-6{flex:0 0 50%;max-width:50%}}@media (min-width: 768px){.col-md-6{flex:0 0 50%;max-width:50%}.col-md-12{flex:0 0 100%;max-width:100%}.order-md-2{order:2}}@media (min-width: 992px){.col-lg-3{flex:0 0 25%;max-width:25%}.col-lg-9{flex:0 0 75%;max-width:75%}}.d-none{display:none!important}.d-block{display:block!important}.d-flex{display:flex!important}@media (min-width: 768px){.d-md-none{display:none!important}.d-md-block{display:block!important}}@media (min-width: 992px){.d-lg-none{display:none!important}.d-lg-block{display:block!important}}.align-items-center{align-items:center!important}.mr-0{margin-right:0!important}.pr-2{padding-right:.5rem!important}.mx-auto{margin-right:auto!important}.mx-auto{margin-left:auto!important}
+</style><link rel="stylesheet" href="custom_css.0ac070699315b256.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="custom_css.0ac070699315b256.css" media="all"></noscript><style ng-app-id="discovery">@font-face{font-family:Open Sans;font-style:normal;font-weight:400;font-display:swap;src:local("Open Sans Regular"),local("OpenSans-Regular"),url(https://cdn.researcher.life/rlife/fonts/open-sans-regular.woff2) format("woff2"),url(https://cdn.researcher.life/rlife/fonts/open-sans-regular.woff) format("woff")}@font-face{font-family:Open Sans;font-style:normal;font-weight:600;font-display:swap;src:local("Open Sans SemiBold"),local("OpenSans-SemiBold"),url(https://cdn.researcher.life/rlife/fonts/open-sans-600.woff2) format("woff2"),url(https://cdn.researcher.life/rlife/fonts/open-sans-600.woff) format("woff")}@font-face{font-family:Open Sans;font-style:normal;font-weight:700;font-display:swap;src:local("Open Sans Bold"),local("OpenSans-Bold"),url(https://cdn.researcher.life/rlife/fonts/open-sans-700.woff2) format("woff2"),url(https://cdn.researcher.life/rlife/fonts/open-sans-700.woff) format("woff")}.btn-pecr[_ngcontent-discovery-c465599581]{display:inline-block;font-weight:400;color:#212529!important;text-align:center;vertical-align:middle;-webkit-user-select:none;user-select:none;background-color:transparent;border:0px solid transparent;padding:.375rem .75rem;font-size:1rem;line-height:1.5;border-radius:.25rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;cursor:pointer;font-family:Open Sans}h5[_ngcontent-discovery-c465599581]{font-size:14px;line-height:19px;color:#fffdfd;font-weight:700;margin-bottom:1px;font-family:Open Sans}p[_ngcontent-discovery-c465599581]{font-size:12px;line-height:17px;margin-bottom:0;font-family:Open Sans;color:#fff}a.text-link[_ngcontent-discovery-c465599581]{font-weight:700;text-decoration:underline;color:#fff;cursor:pointer;font-family:Open Sans}a.text-link[_ngcontent-discovery-c465599581]:hover{text-decoration:none}.pecr-wrapper[_ngcontent-discovery-c465599581]{background:#363232;color:#fff;padding:39px;position:fixed;width:100%;z-index:9999999;left:0;bottom:0;font-family:Open Sans}.sec-wrapper[_ngcontent-discovery-c465599581]{display:flex;align-items:center;justify-content:space-between}.btn-pecr[_ngcontent-discovery-c465599581]{background:#e5e3a9!important;display:block;border-radius:25px;font-size:14px;line-height:19px;font-weight:700;height:45px;padding:0;display:flex;align-items:center;justify-content:center;font-family:Open Sans}.btn-pecr[_ngcontent-discovery-c465599581]:hover{background:#fff!important}.btn-pecr.disable[_ngcontent-discovery-c465599581]{cursor:default;pointer-events:none;opacity:.5}.btn-pecr.disable[_ngcontent-discovery-c465599581]:hover{background:#e5e3a9!important}.sec-left[_ngcontent-discovery-c465599581]{padding-right:20px;flex:1}.sec-middle[_ngcontent-discovery-c465599581]{width:117px}.sec-right[_ngcontent-discovery-c465599581]{width:154px;text-align:right}.sec-right[_ngcontent-discovery-c465599581]   a[_ngcontent-discovery-c465599581]{font-size:14px;line-height:19px;text-decoration:none}.sec-right[_ngcontent-discovery-c465599581]   a[_ngcontent-discovery-c465599581]:hover{text-decoration:underline!important}  body.r-life-pecr-cookies .container{max-width:100%}@media screen and (max-width: 767px){.sec-wrapper[_ngcontent-discovery-c465599581]{flex-wrap:wrap;padding-right:0;justify-content:flex-start}.pecr-wrapper[_ngcontent-discovery-c465599581]{padding:20px 24px 25px}.container[_ngcontent-discovery-c465599581]{padding-left:0!important;padding-right:0!important}.sec-left[_ngcontent-discovery-c465599581]{margin-bottom:16px;padding-right:0;flex:auto}.popup-content[_ngcontent-discovery-c465599581]{padding:14px 19px}}  body.discovery-pecr-cookies .container.container-custom{padding-left:0!important;padding-right:0!important}  body.discovery-pecr-cookies .modal-dialog-centered.full-page .content-wrap{height:calc(100% - 132px)!important}  body.discovery-pecr-cookies #recommended-papers .modal-dialog-centered.full-page .content-wrap{height:auto!important}  body.discovery-pecr-cookies #recommended-papers .modal-dialog-centered.full-page .content-wrap .sub-container{padding-bottom:100px!important}  body.discovery-pecr-cookies .modal-dialog-centered.full-page .modal-footer{bottom:132px!important}  body.discovery-pecr-cookies .modal-dialog-centered.full-page .modal-body,   body.discovery-pecr-cookies .sm-modal.modal-custom{padding-bottom:160px!important}  body[class*=pecr-cookies] footer,   body[class*=pecr-cookies] .r-voice-footer,   body[class*=pecr-cookies] .jr--product-solutions-wrapper,   body[class*=pecr-cookies] .page-wrapper,   body.r-life-pecr-cookies .main-wrapper{padding-bottom:132px!important}  body[class*=pecr-cookies] .main-sect .action-footer{bottom:133px}  body.r-life-pecr-cookies .dot-menu-dropdown .dropdown-list,   body[class$=-pecr-cookies] .dot-menu-dropdown .dropdown-list{max-height:calc(100vh - 265px)}  body[class*=pecr-cookies] .product-info-wrapper{height:calc(100vh - 175px)}@media screen and (max-width: 991px){  body[class*=pecr-cookies] .product-info-wrapper{height:calc(100vh - 215px)}}@media screen and (max-width: 767px){  body[class*=pecr-cookies] .product-info-wrapper{height:calc(100vh - 240px)}}  body[class*=pecr-cookies] .product-info-wrapper .journal-report .tabs{bottom:132px}@media screen and (max-width: 1024px){  body[class*=pecr-cookies] .product-info-wrapper .journal-report .tabs{bottom:150px}}@media screen and (max-width: 991px){  body[class*=pecr-cookies] .product-info-wrapper .journal-report .tabs{bottom:185px}}@media screen and (max-width: 767px){  body[class*=pecr-cookies] .product-info-wrapper .journal-report .tabs{bottom:230px}}</style><style ng-app-id="discovery">@media screen and (max-width: 991px){  body.discovery-pecr-cookies .modal-dialog-centered.full-page .modal-footer{bottom:150px!important}  body[class*=pecr-cookies] .main-sect .action-footer{bottom:185px}}@media screen and (max-width: 991px){  body[class*=pecr-cookies] footer,   body[class*=pecr-cookies] .r-voice-footer,   body[class*=pecr-cookies] .jr--product-solutions-wrapper,   body[class*=pecr-cookies] .page-wrapper,   body.r-life-pecr-cookies .main-wrapper{padding-bottom:160px!important}  body.discovery-pecr-cookies .modal-dialog-centered.full-page .modal-footer{bottom:180px!important}  body.discovery-pecr-cookies .modal-dialog-centered.full-page .content-wrap{height:calc(100vh - 215px)!important}}@media screen and (max-width: 767px){  body[class*=pecr-cookies] footer,   body[class*=pecr-cookies] .r-voice-footer,   body[class*=pecr-cookies] .jr--product-solutions-wrapper,   body.discovery-pecr-cookies .sm-modal.modal-custom,   body.discovery-pecr-cookies .modal-dialog-centered.full-page .content-wrap .sub-container,   body.discovery-pecr-cookies #create-feed .modal-dialog-centered.full-page .modal-body,   body[class*=pecr-cookies] .page-wrapper,   body.r-life-pecr-cookies .main-wrapper{padding-bottom:200px!important}  body.discovery-pecr-cookies .modal-dialog-centered.full-page .content-wrap{height:calc(100vh - 200px)!important}  body[class*=pecr-cookies] .main-sect .action-footer{bottom:212px}}@media screen and (max-width: 599px){  body[class*=pecr-cookies] footer,   body[class*=pecr-cookies] .r-voice-footer,   body[class*=pecr-cookies] .jr--product-solutions-wrapper,   body.discovery-pecr-cookies .sm-modal.modal-custom,   body.discovery-pecr-cookies .modal-dialog-centered.full-page .content-wrap .sub-container,   body[class*=pecr-cookies] .page-wrapper,   body.r-life-pecr-cookies .main-wrapper{padding-bottom:215px!important}  body.discovery-pecr-cookies #create-feed .modal-dialog-centered.full-page .modal-body{padding-bottom:300px!important}  body.discovery-pecr-cookies #closeModal .modal-dialog-centered.full-page .modal-body{padding-bottom:228px!important}  body.discovery-pecr-cookies .modal-dialog-centered.full-page .modal-footer{bottom:215px!important}  body.discovery-pecr-cookies .modal-dialog-centered.full-page .content-wrap{height:calc(100vh - 215px)!important}  body[class*=pecr-cookies] .main-sect .action-footer{bottom:229px}}@media screen and (max-width: 399px){  body.discovery-pecr-cookies .modal-dialog-centered.full-page .modal-footer{bottom:230px!important}  body.discovery-pecr-cookies .modal-dialog-centered.full-page .content-wrap{height:calc(100vh - 150px)!important}}@media screen and (max-width: 374px){  body[class*=pecr-cookies] footer,   body[class*=pecr-cookies] .r-voice-footer,   body[class*=pecr-cookies] .jr--product-solutions-wrapper,   body.discovery-pecr-cookies .sm-modal.modal-custom,   body.discovery-pecr-cookies .modal-dialog-centered.full-page .content-wrap .sub-container,   body.discovery-pecr-cookies #create-feed .modal-dialog-centered.full-page .modal-body,   body[class*=pecr-cookies] .page-wrapper,   body.r-life-pecr-cookies .main-wrapper{padding-bottom:230px!important}  body.discovery-pecr-cookies .modal-dialog-centered.full-page .modal-footer{bottom:230px!important}  body.discovery-pecr-cookies .modal-dialog-centered.full-page .content-wrap{height:calc(100vh - 120px)!important}}@media screen and (max-width: 359px){  body[class*=pecr-cookies] footer,   body[class*=pecr-cookies] .r-voice-footer,   body[class*=pecr-cookies] .jr--product-solutions-wrapper,   body.discovery-pecr-cookies .sm-modal.modal-custom,   body.discovery-pecr-cookies .modal-dialog-centered.full-page .content-wrap .sub-container,   body.discovery-pecr-cookies #create-feed .modal-dialog-centered.full-page .modal-body,   body[class*=pecr-cookies] .page-wrapper,   body.r-life-pecr-cookies .main-wrapper{padding-bottom:245px!important}  body.discovery-pecr-cookies .modal-dialog-centered.full-page .modal-footer{bottom:260px!important}  body.discovery-pecr-cookies .modal-dialog-centered.full-page .content-wrap{height:calc(100vh + 15px)!important}}</style><style ng-app-id="discovery">.font-weight-bold[_ngcontent-discovery-c591033558]{font-weight:700!important}.color-primary[_ngcontent-discovery-c591033558]{color:#262626!important}.color-secondary[_ngcontent-discovery-c591033558]{color:#113dcd!important}.color-white[_ngcontent-discovery-c591033558]{color:#fff}.primary-font[_ngcontent-discovery-c591033558]{font-family:Lato}.error-page[_ngcontent-discovery-c591033558]   .error-search-wrapper[_ngcontent-discovery-c591033558]   .error-search-box[_ngcontent-discovery-c591033558]   input[_ngcontent-discovery-c591033558], .error-page[_ngcontent-discovery-c591033558]   .nav-links[_ngcontent-discovery-c591033558]   li[_ngcontent-discovery-c591033558]   a[_ngcontent-discovery-c591033558], .error-page[_ngcontent-discovery-c591033558]   .all-prodcuts-sec[_ngcontent-discovery-c591033558]   .left-sec[_ngcontent-discovery-c591033558]   h4[_ngcontent-discovery-c591033558]{font-family:Gilroy}.error-page[_ngcontent-discovery-c591033558]   .error-search-wrapper[_ngcontent-discovery-c591033558]   .error-search-box[_ngcontent-discovery-c591033558]{border:1px solid #113dcd!important}.page-not-found-template[_ngcontent-discovery-c591033558]   header[_ngcontent-discovery-c591033558]   .navbar[_ngcontent-discovery-c591033558]   .navbar-brand[_ngcontent-discovery-c591033558] + div[_ngcontent-discovery-c591033558]{display:none!important}p[_ngcontent-discovery-c591033558]{color:#262626}*[_ngcontent-discovery-c591033558]{box-sizing:border-box}body[_ngcontent-discovery-c591033558]{padding:0;margin:0}a[_ngcontent-discovery-c591033558]:hover{text-decoration:none}.error-page[_ngcontent-discovery-c591033558]   .container-fluid[_ngcontent-discovery-c591033558]{margin-left:24px;margin-right:24px;padding-left:0;padding-right:0}.error-page[_ngcontent-discovery-c591033558]   .error-wrap[_ngcontent-discovery-c591033558]{position:relative;height:calc(100vh - 60px)}@media only screen and (max-width: 767px){.error-page[_ngcontent-discovery-c591033558]   .error-wrap[_ngcontent-discovery-c591033558]{padding-top:59px;padding-bottom:71px;height:auto}}.error-page[_ngcontent-discovery-c591033558]   .co-create-head[_ngcontent-discovery-c591033558]{font-size:18px;line-height:26px;margin-bottom:0;font-weight:400;color:#262626;font-family:Lato}.error-page[_ngcontent-discovery-c591033558]   .co-create-head[_ngcontent-discovery-c591033558]   span[_ngcontent-discovery-c591033558]{font-size:40px;line-height:44px;margin-bottom:0;font-weight:400;color:#262626;font-family:Gilroy}@media only screen and (max-width: 767px){.error-page[_ngcontent-discovery-c591033558]   .co-create-head[_ngcontent-discovery-c591033558]   span[_ngcontent-discovery-c591033558]{font-size:27px;line-height:32px;text-align:center;padding-top:37px}}.error-page[_ngcontent-discovery-c591033558]   .cont[_ngcontent-discovery-c591033558]{font-size:18px;line-height:24px;color:#262626;font-weight:400;margin-bottom:20px;margin-top:20px}@media only screen and (max-width: 767px){.error-page[_ngcontent-discovery-c591033558]   .cont[_ngcontent-discovery-c591033558]{font-size:14px;line-height:19px;text-align:center;margin-top:20px;margin-bottom:20px}}.error-page[_ngcontent-discovery-c591033558]   .nav-links[_ngcontent-discovery-c591033558]{padding:0;margin:0;list-style:none}@media only screen and (max-width: 767px){.error-page[_ngcontent-discovery-c591033558]   .nav-links[_ngcontent-discovery-c591033558]{justify-content:center;text-align:center}}.error-page[_ngcontent-discovery-c591033558]   .nav-links[_ngcontent-discovery-c591033558]   li[_ngcontent-discovery-c591033558]{margin-right:35px;display:inline-block;margin-bottom:10px}@media only screen and (max-width: 767px){.error-page[_ngcontent-discovery-c591033558]   .nav-links[_ngcontent-discovery-c591033558]   li[_ngcontent-discovery-c591033558]{margin-right:20px}}@media only screen and (max-width: 767px){.error-page[_ngcontent-discovery-c591033558]   .nav-links[_ngcontent-discovery-c591033558]   li[_ngcontent-discovery-c591033558]   a[_ngcontent-discovery-c591033558]{font-size:16px;line-height:22px}}.error-page[_ngcontent-discovery-c591033558]   .nav-links[_ngcontent-discovery-c591033558]   li[_ngcontent-discovery-c591033558]:last-child{margin-right:0;margin-bottom:0}.error-page[_ngcontent-discovery-c591033558]   .img-placeholder[_ngcontent-discovery-c591033558]   img[_ngcontent-discovery-c591033558]{display:block;margin-left:auto}@media only screen and (max-width: 1199px){.error-page[_ngcontent-discovery-c591033558]   .img-placeholder[_ngcontent-discovery-c591033558]   img[_ngcontent-discovery-c591033558]{width:100%}}@media only screen and (max-width: 767px){.error-page[_ngcontent-discovery-c591033558]   .img-placeholder[_ngcontent-discovery-c591033558]   img[_ngcontent-discovery-c591033558]{width:280px;margin:0 auto}}.error-page[_ngcontent-discovery-c591033558]   .co-create-head[_ngcontent-discovery-c591033558]   .pg-content[_ngcontent-discovery-c591033558]{display:block;font-family:Lato;margin-top:10px;margin-bottom:10px;font-size:24px;line-height:34px;font-weight:600;max-width:448px;width:100%}@media (max-width: 767px){.error-page[_ngcontent-discovery-c591033558]   .co-create-head[_ngcontent-discovery-c591033558]   .pg-content[_ngcontent-discovery-c591033558]{font-size:24px;line-height:36px;padding:0;text-align:left}}.btn[_ngcontent-discovery-c591033558]{padding-left:23px!important;padding-right:24px!important}button[_ngcontent-discovery-c591033558]{outline:none!important}</style><style ng-app-id="discovery">@media only screen and (max-width: 1500px){.error-page[_ngcontent-discovery-c591033558]   .all-prodcuts-sec[_ngcontent-discovery-c591033558]   .left-sec[_ngcontent-discovery-c591033558]{min-height:450px}}@media only screen and (max-width: 1365px){.error-page[_ngcontent-discovery-c591033558]   .all-prodcuts-sec[_ngcontent-discovery-c591033558]   .left-sec[_ngcontent-discovery-c591033558]{padding-left:120px}}@media only screen and (max-width: 1199px){.error-page[_ngcontent-discovery-c591033558]   .img-placeholder[_ngcontent-discovery-c591033558]   img[_ngcontent-discovery-c591033558]{width:100%}.error-page[_ngcontent-discovery-c591033558]   .all-prodcuts-sec[_ngcontent-discovery-c591033558]   .left-sec[_ngcontent-discovery-c591033558]{padding:0 15px;height:100%;min-height:auto}.error-page[_ngcontent-discovery-c591033558]   .all-prodcuts-sec[_ngcontent-discovery-c591033558]   .left-sec[_ngcontent-discovery-c591033558]   .logo-img[_ngcontent-discovery-c591033558]{width:57px;height:auto}.error-page[_ngcontent-discovery-c591033558]   .all-prodcuts-sec[_ngcontent-discovery-c591033558]   .right-sec[_ngcontent-discovery-c591033558]{padding-left:15px}.error-page[_ngcontent-discovery-c591033558]   .all-prodcuts-sec[_ngcontent-discovery-c591033558]   .right-sec[_ngcontent-discovery-c591033558]   .prod-links[_ngcontent-discovery-c591033558] > div[_ngcontent-discovery-c591033558]{padding-right:15px}}@media only screen and (max-width: 767px){.error-page[_ngcontent-discovery-c591033558]   .error-wrap[_ngcontent-discovery-c591033558]{padding:59px 0 71px;height:auto}.error-page[_ngcontent-discovery-c591033558]   .co-create-head[_ngcontent-discovery-c591033558]{font-size:27px;line-height:32px;text-align:center;padding-top:37px}.error-page[_ngcontent-discovery-c591033558]   .cont[_ngcontent-discovery-c591033558]{font-size:14px;line-height:19px;text-align:center;margin:20px 0}.error-page[_ngcontent-discovery-c591033558]   .error-search-wrapper[_ngcontent-discovery-c591033558]   .error-search-box[_ngcontent-discovery-c591033558]   input[_ngcontent-discovery-c591033558], .error-page[_ngcontent-discovery-c591033558]   .error-search-wrapper[_ngcontent-discovery-c591033558]   .error-search-box[_ngcontent-discovery-c591033558]   i[_ngcontent-discovery-c591033558], .error-page[_ngcontent-discovery-c591033558]   .error-search-wrapper[_ngcontent-discovery-c591033558]   button[_ngcontent-discovery-c591033558], .error-page[_ngcontent-discovery-c591033558]   .nav-links[_ngcontent-discovery-c591033558]   li[_ngcontent-discovery-c591033558]   a[_ngcontent-discovery-c591033558]{font-size:16px;line-height:20px}.error-page[_ngcontent-discovery-c591033558]   .error-search-wrapper[_ngcontent-discovery-c591033558]   button[_ngcontent-discovery-c591033558]{margin-left:7px}.error-page[_ngcontent-discovery-c591033558]   .nav-links[_ngcontent-discovery-c591033558]{justify-content:center;text-align:center}.error-page[_ngcontent-discovery-c591033558]   .nav-links[_ngcontent-discovery-c591033558]   li[_ngcontent-discovery-c591033558]{margin-right:20px}.error-page[_ngcontent-discovery-c591033558]   .img-placeholder[_ngcontent-discovery-c591033558]   img[_ngcontent-discovery-c591033558]{width:280px;margin:0 auto}.error-page[_ngcontent-discovery-c591033558]   .scroll-down-link[_ngcontent-discovery-c591033558]   a[_ngcontent-discovery-c591033558]   span[_ngcontent-discovery-c591033558]{font-size:14px;line-height:19px;font-weight:600}.error-page[_ngcontent-discovery-c591033558]   .all-prodcuts-sec[_ngcontent-discovery-c591033558]   .left-sec[_ngcontent-discovery-c591033558]{padding:25px 0 30px;display:flex;justify-content:center}.error-page[_ngcontent-discovery-c591033558]   .all-prodcuts-sec[_ngcontent-discovery-c591033558]   .left-sec[_ngcontent-discovery-c591033558]   a[_ngcontent-discovery-c591033558]{display:flex;align-items:center}.error-page[_ngcontent-discovery-c591033558]   .all-prodcuts-sec[_ngcontent-discovery-c591033558]   .left-sec[_ngcontent-discovery-c591033558]   .logo-img[_ngcontent-discovery-c591033558]{width:37px;margin-right:9.52px;height:45px}.error-page[_ngcontent-discovery-c591033558]   .all-prodcuts-sec[_ngcontent-discovery-c591033558]   .left-sec[_ngcontent-discovery-c591033558]   h4[_ngcontent-discovery-c591033558]{font-size:16px;line-height:22px;position:relative}.error-page[_ngcontent-discovery-c591033558]   .all-prodcuts-sec[_ngcontent-discovery-c591033558]   .right-sec[_ngcontent-discovery-c591033558]{padding-top:21px}.error-page[_ngcontent-discovery-c591033558]   .all-prodcuts-sec[_ngcontent-discovery-c591033558]   .right-sec[_ngcontent-discovery-c591033558]   h6[_ngcontent-discovery-c591033558]{margin-bottom:21px}.error-page[_ngcontent-discovery-c591033558]   .all-prodcuts-sec[_ngcontent-discovery-c591033558]   .right-sec[_ngcontent-discovery-c591033558]   .prod-links[_ngcontent-discovery-c591033558]   p[_ngcontent-discovery-c591033558]{margin-top:10px}.error-page[_ngcontent-discovery-c591033558]   .all-prodcuts-sec[_ngcontent-discovery-c591033558]   .right-sec[_ngcontent-discovery-c591033558]   .prod-links[_ngcontent-discovery-c591033558]   ul[_ngcontent-discovery-c591033558]   li[_ngcontent-discovery-c591033558]{margin-bottom:31px}}button[_ngcontent-discovery-c591033558]{outline:none!important}</style><style ng-app-id="discovery">footer[_ngcontent-discovery-c1518248422]{font-family:Inter Regular;color:#fff}footer.discovery[_ngcontent-discovery-c1518248422]{height:auto;background:#00084d;padding:56px 0 20px;position:relative;z-index:6;font-weight:300}footer.slick-footer[_ngcontent-discovery-c1518248422]{padding-top:0}.container[_ngcontent-discovery-c1518248422]{max-width:1140px}@media (min-width: 1200px){.container[_ngcontent-discovery-c1518248422]{padding-left:5px!important;padding-right:5px!important}}footer.discovery[_ngcontent-discovery-c1518248422]   .feedback-sec[_ngcontent-discovery-c1518248422]   span[_ngcontent-discovery-c1518248422]{font-size:14px;line-height:22px;color:#fff;margin-bottom:24px;font-family:Inter Bold}footer.discovery[_ngcontent-discovery-c1518248422]   .feedback-sec[_ngcontent-discovery-c1518248422]   p[_ngcontent-discovery-c1518248422]{font-size:14px;line-height:22px;margin-bottom:13px;color:#fff}footer.discovery[_ngcontent-discovery-c1518248422]   .feedback-sec[_ngcontent-discovery-c1518248422]   p[_ngcontent-discovery-c1518248422] > a[_ngcontent-discovery-c1518248422]{font-family:Inter Bold;font-weight:700;color:#fff;text-decoration:underline!important}footer.discovery[_ngcontent-discovery-c1518248422]   ul.footer-links[_ngcontent-discovery-c1518248422]{text-align:left;list-style:none;margin:0;padding:0}footer.discovery[_ngcontent-discovery-c1518248422]   ul.footer-links[_ngcontent-discovery-c1518248422] > li[_ngcontent-discovery-c1518248422]{padding:0;margin:0;display:block}footer.discovery[_ngcontent-discovery-c1518248422]   ul.footer-links[_ngcontent-discovery-c1518248422] > li[_ngcontent-discovery-c1518248422]:last-child{padding-bottom:0}footer.discovery[_ngcontent-discovery-c1518248422]   ul.footer-links[_ngcontent-discovery-c1518248422] > li[_ngcontent-discovery-c1518248422] > a[_ngcontent-discovery-c1518248422]{color:#fff;font-size:14px;line-height:30px;display:inline-block}footer.discovery[_ngcontent-discovery-c1518248422]   ul.footer-links[_ngcontent-discovery-c1518248422] > li[_ngcontent-discovery-c1518248422] > a[_ngcontent-discovery-c1518248422]:hover{text-decoration:underline}footer.discovery[_ngcontent-discovery-c1518248422]   ul.footer-links[_ngcontent-discovery-c1518248422] > li[_ngcontent-discovery-c1518248422]:after{display:none}footer.discovery[_ngcontent-discovery-c1518248422]   .footer-social[_ngcontent-discovery-c1518248422]   p[_ngcontent-discovery-c1518248422]{color:#fff;font-size:14px;line-height:22px;margin-bottom:0}footer.discovery[_ngcontent-discovery-c1518248422]   .footer-social[_ngcontent-discovery-c1518248422]   p[_ngcontent-discovery-c1518248422] + a[_ngcontent-discovery-c1518248422]{color:#fff;margin-top:5px;font-size:14px;display:inline-block}footer.discovery[_ngcontent-discovery-c1518248422]   .footer-social[_ngcontent-discovery-c1518248422]   li[_ngcontent-discovery-c1518248422]{display:inline-block;margin-right:7px}footer.discovery[_ngcontent-discovery-c1518248422]   .footer-social[_ngcontent-discovery-c1518248422]   li[_ngcontent-discovery-c1518248422]:last-child{margin-right:0}footer.discovery[_ngcontent-discovery-c1518248422]   .copy[_ngcontent-discovery-c1518248422]{border-top:1px solid #ffffff;margin-top:54px;padding-top:24px;padding-bottom:15px}footer.discovery[_ngcontent-discovery-c1518248422]   .copy[_ngcontent-discovery-c1518248422]   p[_ngcontent-discovery-c1518248422]{color:#fff;font-size:12px;line-height:17px;margin-bottom:0}.social-footer[_ngcontent-discovery-c1518248422]{color:#fff;margin-top:0;display:flex;align-items:center}@media (min-width: 768px){.social-footer[_ngcontent-discovery-c1518248422]{margin-top:172px}}@media (min-width: 992px){.social-footer[_ngcontent-discovery-c1518248422]{margin-top:42px}}.social-footer[_ngcontent-discovery-c1518248422]   span[_ngcontent-discovery-c1518248422]{font-size:12px;line-height:17px;margin-right:25px}.social-footer[_ngcontent-discovery-c1518248422]   a[_ngcontent-discovery-c1518248422]{color:#fff;margin-right:28px}.social-footer[_ngcontent-discovery-c1518248422]   a[_ngcontent-discovery-c1518248422]:last-child{margin-right:0}.social-footer[_ngcontent-discovery-c1518248422]   a[_ngcontent-discovery-c1518248422]   img[_ngcontent-discovery-c1518248422]{display:block}@media only screen and (max-width: 991px){footer.discovery[_ngcontent-discovery-c1518248422]   ul.footer-links[_ngcontent-discovery-c1518248422] > li[_ngcontent-discovery-c1518248422] > a[_ngcontent-discovery-c1518248422]{font-size:14px;line-height:30px}}@media only screen and (max-width: 767px){footer.discovery[_ngcontent-discovery-c1518248422]   .copy[_ngcontent-discovery-c1518248422]   ul[_ngcontent-discovery-c1518248422] > li[_ngcontent-discovery-c1518248422] > a[_ngcontent-discovery-c1518248422], footer.discovery[_ngcontent-discovery-c1518248422]   .copy[_ngcontent-discovery-c1518248422]   p[_ngcontent-discovery-c1518248422]{font-size:12px;line-height:14px}footer.discovery[_ngcontent-discovery-c1518248422]   .footer-cont[_ngcontent-discovery-c1518248422]   .footer-logo-wrap[_ngcontent-discovery-c1518248422]{height:21px}footer.discovery[_ngcontent-discovery-c1518248422]   .footer-cont[_ngcontent-discovery-c1518248422]   .footer-logo[_ngcontent-discovery-c1518248422]{width:197px;height:39px;margin-top:0}footer.discovery[_ngcontent-discovery-c1518248422]   .footer-cont[_ngcontent-discovery-c1518248422]   small.sm-txt[_ngcontent-discovery-c1518248422]{font-size:16px;line-height:22px;margin-top:10px;margin-bottom:40px}footer.discovery[_ngcontent-discovery-c1518248422]   .footer-cont[_ngcontent-discovery-c1518248422]   p[_ngcontent-discovery-c1518248422]{font-size:16px;line-height:22px;margin-bottom:8px}.footer.discovery[_ngcontent-discovery-c1518248422]{padding-top:41px;padding-bottom:48px;z-index:13}footer.discovery[_ngcontent-discovery-c1518248422]   .footer-cont[_ngcontent-discovery-c1518248422]   .footer-social[_ngcontent-discovery-c1518248422]   p[_ngcontent-discovery-c1518248422]{font-size:14px;line-height:20px;margin-bottom:0}footer.discovery[_ngcontent-discovery-c1518248422]   .copy[_ngcontent-discovery-c1518248422]{margin-top:26px;padding-top:24.5px;padding-bottom:23px}footer.discovery[_ngcontent-discovery-c1518248422]   .feedback-sec[_ngcontent-discovery-c1518248422]{margin:0}footer.discovery[_ngcontent-discovery-c1518248422]   .feedback-sec[_ngcontent-discovery-c1518248422]   .feedback-wrap[_ngcontent-discovery-c1518248422]{padding-left:0;text-align:center}footer.discovery[_ngcontent-discovery-c1518248422]   .feedback-sec[_ngcontent-discovery-c1518248422]   p[_ngcontent-discovery-c1518248422]{padding-left:0;padding-right:0;font-size:14px;line-height:22px;margin-bottom:0}footer.discovery[_ngcontent-discovery-c1518248422]   .feedback-sec[_ngcontent-discovery-c1518248422]   p[_ngcontent-discovery-c1518248422]:last-child{margin-bottom:0}footer.discovery[_ngcontent-discovery-c1518248422]   .feedback-sec[_ngcontent-discovery-c1518248422]   h6[_ngcontent-discovery-c1518248422]{margin-bottom:10px}.footer.discovery[_ngcontent-discovery-c1518248422]   .sub-container[_ngcontent-discovery-c1518248422]{padding-left:0;padding-right:0}.footer-cactus-logo[_ngcontent-discovery-c1518248422]{margin-top:52.15px;justify-content:center}.footer-cactus-logo[_ngcontent-discovery-c1518248422]   small[_ngcontent-discovery-c1518248422]{font-size:10px;line-height:14px;color:#fff;margin-left:14px;flex:none}}.footer-border-top[_ngcontent-discovery-c1518248422]{margin-top:40px;padding-left:20px;padding-right:20px}@media (min-width: 768px){.footer-border-top[_ngcontent-discovery-c1518248422]{margin-top:41px;padding-left:30px;padding-right:30px}}@media (min-width: 992px){.footer-border-top[_ngcontent-discovery-c1518248422]{margin-top:16px;padding-left:0;padding-right:0}}.solutions[_ngcontent-discovery-c1518248422]{font-size:12px;line-height:16px;opacity:.6;font-weight:400;margin-bottom:8px;letter-spacing:1.09px;display:block}.copyright[_ngcontent-discovery-c1518248422]{font-family:Gilroy Semibold;font-weight:600;font-size:11px;margin-top:8px;line-height:21px;display:block}.discovery-logo[_ngcontent-discovery-c1518248422]{display:flex;align-items:center;justify-content:space-between;padding-bottom:37.3px}@media (max-width: 991px){.discovery-logo[_ngcontent-discovery-c1518248422]{padding-bottom:24.3px}}@media (max-width: 767px){.discovery-logo[_ngcontent-discovery-c1518248422]{text-align:center;max-width:280px;margin:0 auto;padding-bottom:34.3px}}.discovery-logo[_ngcontent-discovery-c1518248422]   .logo[_ngcontent-discovery-c1518248422]{height:33px;width:auto}.footer-bottom[_ngcontent-discovery-c1518248422]{position:relative;padding-top:40px;padding-bottom:0;color:#fff;padding-left:21px!important;padding-right:21px!important;max-width:1088px}@media (min-width: 768px){.footer-bottom[_ngcontent-discovery-c1518248422]{display:flex;justify-content:space-between;align-items:center;margin-left:auto;margin-right:auto;padding-top:30px;padding-bottom:24px;padding-left:0!important;padding-right:0!important}}@media (min-width: 992px){.footer-bottom[_ngcontent-discovery-c1518248422]{padding-top:20px}}@media (min-width: 768px){.others[_ngcontent-discovery-c1518248422]{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap}}@media (max-width: 767px){.others[_ngcontent-discovery-c1518248422]{width:400px;margin-top:2rem;max-width:100%}}.others[_ngcontent-discovery-c1518248422]   img[_ngcontent-discovery-c1518248422]{height:19px;margin-bottom:23px}@media (min-width: 768px){.others[_ngcontent-discovery-c1518248422]   img[_ngcontent-discovery-c1518248422]{flex:1 1 0%;margin-left:1rem;margin-bottom:0}}.others[_ngcontent-discovery-c1518248422]   a[_ngcontent-discovery-c1518248422]:last-child   img[_ngcontent-discovery-c1518248422]{margin-bottom:0}.others-one[_ngcontent-discovery-c1518248422]{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap}@media (max-width: 767px){.others-one[_ngcontent-discovery-c1518248422]{margin-bottom:1rem;max-width:228px}}@media (max-width: 767px){.footer-share.linkedin[_ngcontent-discovery-c1518248422]{width:20px}.footer-share.facebook[_ngcontent-discovery-c1518248422]{width:13px}.footer-share.twitter[_ngcontent-discovery-c1518248422]{width:21px}}@media (min-width: 768px) and (max-width: 991px){.footer-info[_ngcontent-discovery-c1518248422], .excited-left[_ngcontent-discovery-c1518248422]{width:70%}.useful-links[_ngcontent-discovery-c1518248422], .write-to-us[_ngcontent-discovery-c1518248422]{width:30%}}@media (min-width: 768px){.footer-wrapper-sec[_ngcontent-discovery-c1518248422]{display:flex!important;justify-content:space-between;padding-left:4px;padding-right:4px}}@media (min-width: 992px){.footer-wrapper-sec[_ngcontent-discovery-c1518248422]{padding-left:0;padding-right:0}}.download-btns-actions[_ngcontent-discovery-c1518248422]{list-style:none;padding:0;margin-bottom:1.5rem!important;align-items:center!important;display:none!important}@media (min-width: 992px){.download-btns-actions[_ngcontent-discovery-c1518248422]{display:block!important;margin-bottom:0rem!important}}.download-btns-actions[_ngcontent-discovery-c1518248422]   li[_ngcontent-discovery-c1518248422] + li[_ngcontent-discovery-c1518248422]   img[_ngcontent-discovery-c1518248422]{display:block;width:auto;height:auto}.download-btns-actions[_ngcontent-discovery-c1518248422]   li[_ngcontent-discovery-c1518248422] + li[_ngcontent-discovery-c1518248422]   img[_ngcontent-discovery-c1518248422]:first-child{margin-bottom:12px}footer.discovery[_ngcontent-discovery-c1518248422]   .download-btns[_ngcontent-discovery-c1518248422]{margin-bottom:44px;margin-top:0;list-style:none;padding:0;text-align:center;display:flex;align-items:center;justify-content:center}@media (min-width: 768px){footer.discovery[_ngcontent-discovery-c1518248422]   .download-btns[_ngcontent-discovery-c1518248422]{text-align:left;margin-bottom:0;align-items:flex-start;flex-direction:column}}@media (min-width: 992px){footer.discovery[_ngcontent-discovery-c1518248422]   .download-btns[_ngcontent-discovery-c1518248422]{display:none!important}}footer.discovery[_ngcontent-discovery-c1518248422]   .download-btns[_ngcontent-discovery-c1518248422] > li[_ngcontent-discovery-c1518248422]{margin-right:8.5px;margin-left:8.5px}@media (min-width: 768px){footer.discovery[_ngcontent-discovery-c1518248422]   .download-btns[_ngcontent-discovery-c1518248422] > li[_ngcontent-discovery-c1518248422]{margin-bottom:24px;margin-right:0;margin-left:0}}footer.discovery[_ngcontent-discovery-c1518248422]   .download-btns[_ngcontent-discovery-c1518248422] > li[_ngcontent-discovery-c1518248422]   a[_ngcontent-discovery-c1518248422], footer.discovery[_ngcontent-discovery-c1518248422]   .download-btns[_ngcontent-discovery-c1518248422] > li[_ngcontent-discovery-c1518248422]   img[_ngcontent-discovery-c1518248422]{display:block}footer.discovery[_ngcontent-discovery-c1518248422]   .download-btns[_ngcontent-discovery-c1518248422] > li[_ngcontent-discovery-c1518248422]:last-child{margin-bottom:0}p.download-txt[_ngcontent-discovery-c1518248422]{font-size:14px;line-height:19px;color:#fff;margin-bottom:20px;text-align:center}@media (min-width: 768px){p.download-txt[_ngcontent-discovery-c1518248422]{text-align:left}}@media (min-width: 992px){p.download-txt[_ngcontent-discovery-c1518248422]{margin-bottom:17px;margin-top:15px}}@media (min-width: 768px){.footer-left[_ngcontent-discovery-c1518248422]{max-width:161px;width:100%}}@media (min-width: 992px){.footer-left[_ngcontent-discovery-c1518248422]{max-width:151px}}.footer-right[_ngcontent-discovery-c1518248422]{width:100%}@media (min-width: 768px){.footer-right[_ngcontent-discovery-c1518248422]{max-width:450px}}@media (min-width: 992px){.footer-right[_ngcontent-discovery-c1518248422]{max-width:800px}}.discovery-prime-logo[_ngcontent-discovery-c1518248422]{font-size:14px}.discovery-prime-logo[_ngcontent-discovery-c1518248422]   b[_ngcontent-discovery-c1518248422]{font-family:Gilroy;font-weight:700;color:#f0ad27}.new-badge[_ngcontent-discovery-c1518248422]{width:32px;height:13px;display:inline-flex;margin-left:4px;background:#fff;align-items:center;justify-content:center;text-transform:uppercase;color:#1d2747;font-size:10px;font-family:Inter Bold;border-radius:3px}.column-1[_ngcontent-discovery-c1518248422], .column-2[_ngcontent-discovery-c1518248422]{margin-bottom:40px;padding-left:24px}@media (min-width: 768px){.column-1[_ngcontent-discovery-c1518248422], .column-2[_ngcontent-discovery-c1518248422]{margin-bottom:60px;padding-left:15px}}@media (min-width: 992px){.column-1[_ngcontent-discovery-c1518248422], .column-2[_ngcontent-discovery-c1518248422]{margin-bottom:0}}.column-3[_ngcontent-discovery-c1518248422]{margin-bottom:40px;padding-left:24px}@media (min-width: 768px){.column-3[_ngcontent-discovery-c1518248422]{margin-bottom:0;padding-left:15px}}.column-4[_ngcontent-discovery-c1518248422]{padding-left:24px}@media (min-width: 768px){.column-4[_ngcontent-discovery-c1518248422]{padding-left:15px}}.qr-code[_ngcontent-discovery-c1518248422]{border-radius:8px}.top-border[_ngcontent-discovery-c1518248422]{border-top:1px solid rgba(255,255,255,.4)}.links-container[_ngcontent-discovery-c1518248422]{display:none;gap:60px;justify-content:space-between;padding-bottom:44px;margin-bottom:44px;border-bottom:1px solid rgba(255,255,255,.4)}@media (min-width: 992px){.links-container[_ngcontent-discovery-c1518248422]{display:flex}}.links-container[_ngcontent-discovery-c1518248422]   .list-grid[_ngcontent-discovery-c1518248422]{width:170px}.links-container[_ngcontent-discovery-c1518248422]   .list-grid[_ngcontent-discovery-c1518248422]   .link-title[_ngcontent-discovery-c1518248422]{font-size:14px;font-family:Inter Bold;color:#fff;margin-bottom:42px;min-height:42px;text-transform:uppercase}.links-container[_ngcontent-discovery-c1518248422]   .list-grid[_ngcontent-discovery-c1518248422]   .list[_ngcontent-discovery-c1518248422]{text-align:left;list-style:none;margin:0;padding:0}.links-container[_ngcontent-discovery-c1518248422]   .list-grid[_ngcontent-discovery-c1518248422]   .list[_ngcontent-discovery-c1518248422] > li[_ngcontent-discovery-c1518248422]{list-style:none;margin-bottom:15px}.links-container[_ngcontent-discovery-c1518248422]   .list-grid[_ngcontent-discovery-c1518248422]   .list[_ngcontent-discovery-c1518248422] > li[_ngcontent-discovery-c1518248422]:last-child{margin-bottom:0}.links-container[_ngcontent-discovery-c1518248422]   .list-grid[_ngcontent-discovery-c1518248422]   .list[_ngcontent-discovery-c1518248422] > li[_ngcontent-discovery-c1518248422] > a[_ngcontent-discovery-c1518248422]{color:#a7afcc;font-size:14px}.links-container[_ngcontent-discovery-c1518248422]   .list-grid[_ngcontent-discovery-c1518248422]   .list[_ngcontent-discovery-c1518248422] > li[_ngcontent-discovery-c1518248422] > a[_ngcontent-discovery-c1518248422]:hover{color:#fff}</style><style ng-app-id="discovery">.cactus-footer[_ngcontent-discovery-c3556152347]{height:auto;background:#1f2937;position:relative;border-top:1px solid #fff;padding:16px 70px}@media (min-width: 992px){.cactus-footer[_ngcontent-discovery-c3556152347]{padding:16px 24px}}.cactus-footer-wrap[_ngcontent-discovery-c3556152347]{display:flex;justify-content:space-between;align-items:flex-start;margin-top:20px;flex-direction:column;text-align:left}@media (min-width: 768px){.cactus-footer-wrap[_ngcontent-discovery-c3556152347]{flex-direction:row}}.footer-wrapper[_ngcontent-discovery-c3556152347]{max-width:1130px}.copyright[_ngcontent-discovery-c3556152347]{font-size:14px;line-height:21px;color:#fff;margin-bottom:0;padding-top:3px}.rights[_ngcontent-discovery-c3556152347]{display:block}@media (min-width: 992px){.rights[_ngcontent-discovery-c3556152347]{display:inline}}.cactus-footer-wrap[_ngcontent-discovery-c3556152347]   a[_ngcontent-discovery-c3556152347]{color:#fff;margin-right:20px;display:inline-block;font-size:14px;line-height:22px}.cactus-footer-wrap[_ngcontent-discovery-c3556152347]   a[_ngcontent-discovery-c3556152347]:last-child{margin-right:0}.line[_ngcontent-discovery-c3556152347]{border-left:1px solid #ffffff;margin-left:-10px;margin-right:10px}@media (min-width: 768px){.line[_ngcontent-discovery-c3556152347]{display:none}}@media (max-width: 767px){.cactus-footer[_ngcontent-discovery-c3556152347]{padding-left:24px;padding-right:24px}.cactus-footer-wrap[_ngcontent-discovery-c3556152347]{display:block}.cactus-footer-wrap[_ngcontent-discovery-c3556152347]   .cactus-footer-left[_ngcontent-discovery-c3556152347], .cactus-footer-wrap[_ngcontent-discovery-c3556152347]   .cactus-footer-right[_ngcontent-discovery-c3556152347]{margin-top:20px}.copyright[_ngcontent-discovery-c3556152347], .cactus-footer-wrap[_ngcontent-discovery-c3556152347]   a[_ngcontent-discovery-c3556152347]{font-size:12px}}</style></head>
+  <body>
+    <spectrum-root ng-version="19.2.17" ng-server-context="ssr"><main><router-outlet></router-outlet><spectrum-error-page _nghost-discovery-c591033558><div _ngcontent-discovery-c591033558 class="error-page"><div _ngcontent-discovery-c591033558 class="d-flex align-items-center error-wrap"><div _ngcontent-discovery-c591033558 class="container container-custom"><div _ngcontent-discovery-c591033558 class="row align-items-center no-gutters"><div _ngcontent-discovery-c591033558 class="col-sm-6 order-md-2"><div _ngcontent-discovery-c591033558 class="img-placeholder text-right"><img _ngcontent-discovery-c591033558 alt loading="lazy" src="https://cdn.researcher.life/r-errors/discovery/400-series-errors.svg"></div></div><div _ngcontent-discovery-c591033558 class="col-sm-6 left-sec"><div _ngcontent-discovery-c591033558 class="row no-gutters"><div _ngcontent-discovery-c591033558 class="col-lg-9 col-md-12"><h1 _ngcontent-discovery-c591033558 class="primary-font co-create-head"><span _ngcontent-discovery-c591033558 class="color-secondary font-weight-bold pr-2">404 Error</span><!----><!----><!----><br _ngcontent-discovery-c591033558>This page does not exist<br _ngcontent-discovery-c591033558><!----><!----></h1><p _ngcontent-discovery-c591033558 class="cont"> Please check if the URL you have entered is correct; you may also choose to return to the Home page or contact our support team by clicking the button below </p><ul _ngcontent-discovery-c591033558 class="nav-links"><li _ngcontent-discovery-c591033558><a _ngcontent-discovery-c591033558 routerlink="/" class="btn btn-primary text-link" href="/">Home</a></li><li _ngcontent-discovery-c591033558><a _ngcontent-discovery-c591033558 href="mailto:feedback@researcher.life" class="btn btn-outline-primary text-link">Support</a></li></ul><!----></div></div></div></div></div><!----></div><!----><div _ngcontent-discovery-c591033558></div><spectrum-footer _nghost-discovery-c1518248422><div _ngcontent-discovery-c1518248422 class="footer-wrapper"><footer _ngcontent-discovery-c1518248422 class="footer discovery"><div _ngcontent-discovery-c1518248422 class="container"><div _ngcontent-discovery-c1518248422 class="links-container"><div _ngcontent-discovery-c1518248422 class="list-grid"><p _ngcontent-discovery-c1518248422 class="link-title">Popular topics</p><ul _ngcontent-discovery-c1518248422 class="list"><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?search=Artificial+Intelligence&amp;document_type=article&amp;sort=publication_date%3Adesc">Latest Artificial Intelligence papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?search=Nursing&amp;document_type=article&amp;sort=publication_date%3Adesc">Latest Nursing papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?search=Psychology+Research&amp;document_type=article&amp;sort=publication_date%3Adesc">Latest Psychology Research papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?search=Sociology+Research&amp;document_type=article&amp;sort=publication_date%3Adesc">Latest Sociology Research papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?search=Business+Research&amp;document_type=article&amp;sort=publication_date%3Adesc">Latest Business Research papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?search=Marketing+Research&amp;document_type=article&amp;sort=publication_date%3Adesc">Latest Marketing Research papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?search=Social+Research&amp;document_type=article&amp;sort=publication_date%3Adesc">Latest Social Research papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?search=Education+Research&amp;document_type=article&amp;sort=publication_date%3Adesc">Latest Education Research papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?search=Accounting+Research&amp;document_type=article&amp;sort=publication_date%3Adesc">Latest Accounting Research papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?search=Mental+Health&amp;document_type=article&amp;sort=publication_date%3Adesc">Latest Mental Health papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?search=Economics&amp;document_type=article&amp;sort=publication_date%3Adesc">Latest Economics papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?search=Education+Research&amp;document_type=article&amp;sort=publication_date%3Adesc">Latest Education Research papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?search=Climate+Change+Research&amp;document_type=article&amp;sort=publication_date%3Adesc">Latest Climate Change Research papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?search=Mathematics+Research&amp;document_type=article&amp;sort=publication_date%3Adesc">Latest Mathematics Research papers</a></li><!----></ul></div><div _ngcontent-discovery-c1518248422 class="list-grid"><p _ngcontent-discovery-c1518248422 class="link-title">Most cited papers</p><ul _ngcontent-discovery-c1518248422 class="list"><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?search=Artificial+Intelligence&amp;document_type=article&amp;sort=citations_count%3Adesc">Most cited Artificial Intelligence papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?search=Nursing&amp;document_type=article&amp;sort=citations_count%3Adesc">Most cited Nursing papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?search=Psychology+Research&amp;document_type=article&amp;sort=citations_count%3Adesc">Most cited Psychology Research papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?search=Sociology+Research&amp;document_type=article&amp;sort=citations_count%3Adesc">Most cited Sociology Research papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?search=Business+Research&amp;document_type=article&amp;sort=citations_count%3Adesc">Most cited Business Research papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?search=Marketing+Research&amp;document_type=article&amp;sort=citations_count%3Adesc">Most cited Marketing Research papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?search=Social+Research&amp;document_type=article&amp;sort=citations_count%3Adesc">Most cited Social Research papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?search=Education+Research&amp;document_type=article&amp;sort=citations_count%3Adesc">Most cited Education Research papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?search=Accounting+Research&amp;document_type=article&amp;sort=citations_count%3Adesc">Most cited Accounting Research papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?search=Mental+Health&amp;document_type=article&amp;sort=citations_count%3Adesc">Most cited Mental Health papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?search=Economics&amp;document_type=article&amp;sort=citations_count%3Adesc">Most cited Economics papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?search=Education+Research&amp;document_type=article&amp;sort=citations_count%3Adesc">Most cited Education Research papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?search=Climate+Change+Research&amp;document_type=article&amp;sort=citations_count%3Adesc">Most cited Climate Change Research papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?search=Mathematics+Research&amp;document_type=article&amp;sort=citations_count%3Adesc">Most cited Mathematics Research papers</a></li><!----></ul></div><div _ngcontent-discovery-c1518248422 class="list-grid"><p _ngcontent-discovery-c1518248422 class="link-title">Latest papers from journals</p><ul _ngcontent-discovery-c1518248422 class="list"><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?journal=scientific+reports&amp;document_type=article&amp;sort=publication_date%3Adesc">Scientific Reports latest papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?journal=plos+one&amp;document_type=article&amp;sort=publication_date%3Adesc">PLOS ONE latest papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?journal=journal+of+clinical+oncology&amp;document_type=article&amp;sort=publication_date%3Adesc">Journal of Clinical Oncology latest papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?journal=nature+communications&amp;document_type=article&amp;sort=publication_date%3Adesc">Nature Communications latest papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?journal=bmc+geriatrics&amp;document_type=article&amp;sort=publication_date%3Adesc">BMC Geriatrics latest papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?journal=science+of+the+total+environment&amp;document_type=article&amp;sort=publication_date%3Adesc">Science of The Total Environment latest papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?journal=medical+physics&amp;document_type=article&amp;sort=publication_date%3Adesc">Medical Physics latest papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?journal=cureus&amp;document_type=article&amp;sort=publication_date%3Adesc">Cureus latest papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?journal=cancer+research&amp;document_type=article&amp;sort=publication_date%3Adesc">Cancer Research latest papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?journal=chemosphere&amp;document_type=article&amp;sort=publication_date%3Adesc">Chemosphere latest papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?journal=international+journal+of+advanced+research+in+science%2C+communication+and+technology&amp;document_type=article&amp;sort=publication_date%3Adesc">International Journal of Advanced Research in Science latest papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?journal=journal+of+communication+technology&amp;document_type=article&amp;sort=publication_date%3Adesc">Communication and Technology latest papers</a></li><!----></ul></div><div _ngcontent-discovery-c1518248422 class="list-grid"><p _ngcontent-discovery-c1518248422 class="link-title">Latest papers from institutions</p><ul _ngcontent-discovery-c1518248422 class="list"><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?affiliation=french+national+centre+for+scientific+research&amp;document_type=article&amp;sort=publication_date%3Adesc">Latest research from French National Centre for Scientific Research</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?affiliation=chinese+academy+of+sciences&amp;document_type=article&amp;sort=publication_date%3Adesc">Latest research from Chinese Academy of Sciences</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?affiliation=harvard+university&amp;document_type=article&amp;sort=publication_date%3Adesc">Latest research from Harvard University</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?affiliation=university+of+toronto&amp;document_type=article&amp;sort=publication_date%3Adesc">Latest research from University of Toronto</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?affiliation=university+of+michigan%E2%80%93ann+arbor&amp;document_type=article&amp;sort=publication_date%3Adesc">Latest research from University of Michigan</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?affiliation=university+college+london&amp;document_type=article&amp;sort=publication_date%3Adesc">Latest research from University College London</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?affiliation=stanford+university&amp;document_type=article&amp;sort=publication_date%3Adesc">Latest research from Stanford University</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?affiliation=the+university+of+tokyo&amp;document_type=article&amp;sort=publication_date%3Adesc">Latest research from The University of Tokyo</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?affiliation=johns+hopkins+university&amp;document_type=article&amp;sort=publication_date%3Adesc">Latest research from Johns Hopkins University</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?affiliation=university+of+washington&amp;document_type=article&amp;sort=publication_date%3Adesc">Latest research from University of Washington</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?affiliation=university+of+oxford&amp;document_type=article&amp;sort=publication_date%3Adesc">Latest research from University of Oxford</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?affiliation=university+of+cambridge&amp;document_type=article&amp;sort=publication_date%3Adesc">Latest research from University of Cambridge</a></li><!----></ul></div><div _ngcontent-discovery-c1518248422 class="list-grid"><p _ngcontent-discovery-c1518248422 class="link-title">Popular Collections</p><ul _ngcontent-discovery-c1518248422 class="list"><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?concepts=Business%7C%7CCommunity+Participation%7C%7CDiscrimination%7C%7CEqual+Opportunity%7C%7CForeign+Aid%7C%7CForeign+Investment%7C%7CGender+Equality%7C%7CIncome+Distribution%7C%7CIncome+Inequality%7C%7CPopulation+Growth%7C%7CPoverty+Reduction%7C%7CRacism%7C%7CReligion%7C%7CRural&amp;document_type=article&amp;sort=publication_date%3Adesc">Research on Reduced Inequalities</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?concepts=Basic+Services%7C%7CEconomic+Resources%7C%7CEnvironmental%7C%7CFinancial+Inclusion%7C%7CIncome+Inequality%7C%7CLow-income+Families%7C%7CLow-income+Households%7C%7CPoor%7C%7CPoor+People%7C%7CPoverty+Line%7C%7CQuality+Of+Life%7C%7CResources%7C%7CSocial+Protection%7C%7CSustainable&amp;document_type=article&amp;sort=publication_date%3Adesc">Research on No Poverty</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?concepts=Domestic+Violence%7C%7CDiscrimination%7C%7CEmpowerment%7C%7CEqual+Opportunity%7C%7CGender%7C%7CGender+Bias%7C%7CGender+Inequality%7C%7CHuman+Rights%7C%7CMaternal+Health%7C%7CSex+Education%7C%7CSexual+Exploitation%7C%7CSocial+Inclusion%7C%7CUniversal+Health+Coverage%7C%7CViolence%7C%7CWomen&amp;document_type=article&amp;sort=publication_date%3Adesc">Research on Gender Equality</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?concepts=Abuse%7C%7CChild+Welfare%7C%7CConflict+Resolution%7C%7CCrime%7C%7CDecision-making%7C%7CEnvironmental+Management%7C%7CGovernance%7C%7CInstitutions%7C%7CJustice%7C%7CPhysical+Abuse%7C%7CRule+Of+Law%7C%7CSecurity+Threats%7C%7CSexual+Abuse%7C%7CWater+Management&amp;document_type=article&amp;sort=publication_date%3Adesc">Research on Peace Justice &amp; Strong Institutions</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?concepts=Carbon%7C%7CEnergy%7C%7CEnergy+Demand%7C%7CEnergy+Efficiency%7C%7CEnergy+Harvesting%7C%7CGreenhouse+Gas+Emissions%7C%7CPhotovoltaic%7C%7CPhotovoltaic+System%7C%7CRenewable%7C%7CRenewable+Energy%7C%7CSolar+Energy%7C%7CSustainable+Energy%7C%7CThermal+Energy%7C%7CWind+Power%7C%7CWind+Turbine&amp;document_type=article&amp;sort=publication_date%3Adesc">Research on Affordable &amp; Clean Energy</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?concepts=Cultural+Diversity%7C%7CEarly+Childhood%7C%7CEducation%7C%7CGender+Equality%7C%7CInternational+Cooperation%7C%7CLearning+Environment%7C%7CLearning+Experience%7C%7Clifelong+learning%7C%7CLiteracy%7C%7CPrimary+Education%7C%7CPrimary+School%7C%7CSchool%7C%7CSecondary+Education%7C%7CTeacher+Training%7C%7CVocational+Education&amp;document_type=article&amp;sort=publication_date%3Adesc">Research on Quality Education</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?concepts=Defecation%7C%7CDrought%7C%7CPollution%7C%7CRiver+Basin%7C%7CWastewater%7C%7CWater%7C%7CWater+Availability%7C%7CWater+Pollution%7C%7CWater+Quality%7C%7CWater+Resources+Management%7C%7CWater+Scarcity%7C%7CWastewater+Treatment%7C%7CWater+Treatment%7C%7CWater+Supply&amp;document_type=article&amp;sort=publication_date%3Adesc">Research on Clean Water &amp; Sanitation</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/covid-research?">Research on COVID-19</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/monkeypox-research-collection?">Research on Monkeypox</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/medical-specialties-and-healthcare-research-papers?">Research on Medical Specialties</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/climate-justice-collection?">Research on Climate Justice</a></li><!----></ul></div><!----></div><!----><div _ngcontent-discovery-c1518248422 class="footer-wrapper-sec"><div _ngcontent-discovery-c1518248422 class="footer-left"><div _ngcontent-discovery-c1518248422 class="discovery-logo"><img _ngcontent-discovery-c1518248422 loading="lazy" src="https://cdn.researcher.life/logos/discovery-by-editage-white.svg" width="100" height="24" alt="Discovery logo" class="logo"><div _ngcontent-discovery-c1518248422 class="footer-social d-block d-md-none"><div _ngcontent-discovery-c1518248422 class="social-footer"><a _ngcontent-discovery-c1518248422 href="https://www.facebook.com/RDiscoveryOfficial" target="_blank"><img _ngcontent-discovery-c1518248422 src="https://cdn.researcher.life/discovery/icons/facebook-lt-blue.svg" alt="Facebook" width="9" height="16" loading="lazy"></a><a _ngcontent-discovery-c1518248422 href="https://x.com/R_Discovery" target="_blank"><img _ngcontent-discovery-c1518248422 src="https://cdn.researcher.life/rlife/icons/twitter-lt-blue-final.svg" alt="Twitter" width="16" height="13" loading="lazy"></a><a _ngcontent-discovery-c1518248422 href="https://in.linkedin.com/showcase/researcher.life" target="_blank"><img _ngcontent-discovery-c1518248422 src="https://cdn.researcher.life/discovery/icons/linkedin-lt-blue.svg" alt="Linkedin" width="16" height="16" loading="lazy"></a><a _ngcontent-discovery-c1518248422 href="https://www.instagram.com/rdiscovery_official/" target="_blank" class="mr-0"><img _ngcontent-discovery-c1518248422 src="https://cdn.researcher.life/discovery/icons/instagram-lt-blue.svg" alt="Instagram" width="16" height="16" loading="lazy"></a></div></div></div><p _ngcontent-discovery-c1518248422 class="download-txt d-block d-lg-none">Download the FREE App</p><ul _ngcontent-discovery-c1518248422 class="download-btns"><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="https://r-discovery.onelink.me/G5jv/xr65f16j" target="_blank"><img _ngcontent-discovery-c1518248422 src="https://cdn.researcher.life/discovery/icons/play-store-mobile.svg" alt="Play store Link" width="137" height="39" loading="lazy"></a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="https://r-discovery.onelink.me/G5jv/xr65f16j" target="_blank"><img _ngcontent-discovery-c1518248422 src="https://cdn.researcher.life/discovery/icons/app-store-mobile.svg" alt="App store Link" width="137" height="39" loading="lazy"></a></li></ul><ul _ngcontent-discovery-c1518248422 class="download-btns-actions"><li _ngcontent-discovery-c1518248422><img _ngcontent-discovery-c1518248422 src="https://cdn.researcher.life/discovery/icons/appflyer-qr.webp" tabindex="0" width="94" height="94" alt="Scan QR code to download FREE App" loading="lazy" class="qr-code"><p _ngcontent-discovery-c1518248422 class="download-txt d-nonw d-lg-block">Scan to download FREE App</p></li><li _ngcontent-discovery-c1518248422><img _ngcontent-discovery-c1518248422 src="https://cdn.researcher.life/discovery/icons/play-store-full-grey.svg" width="61" height="12" alt="Google Play" loading="lazy"><img _ngcontent-discovery-c1518248422 src="https://cdn.researcher.life/discovery/icons/app-store-full-grey.svg" width="61" height="12" alt="App Store" loading="lazy"></li></ul><div _ngcontent-discovery-c1518248422 class="footer-social d-none d-md-block d-lg-none"><div _ngcontent-discovery-c1518248422 class="social-footer"><a _ngcontent-discovery-c1518248422 href="https://www.facebook.com/RDiscoveryOfficial" target="_blank"><img _ngcontent-discovery-c1518248422 src="https://cdn.researcher.life/discovery/icons/facebook-lt-blue.svg" alt="Facebook" width="9" height="16" loading="lazy"></a><a _ngcontent-discovery-c1518248422 href="https://www.facebook.com/RDiscoveryOfficial" target="_blank"><img _ngcontent-discovery-c1518248422 src="https://cdn.researcher.life/rlife/icons/twitter-lt-blue-final.svg" alt="Twitter" width="16" height="13" loading="lazy"></a><a _ngcontent-discovery-c1518248422 href="https://in.linkedin.com/showcase/researcher.life" target="_blank"><img _ngcontent-discovery-c1518248422 src="https://cdn.researcher.life/discovery/icons/linkedin-lt-blue.svg" alt="Twitter" width="16" height="16" loading="lazy"></a><a _ngcontent-discovery-c1518248422 href="https://www.instagram.com/rdiscovery_official/" target="_blank" class="mr-0"><img _ngcontent-discovery-c1518248422 src="https://cdn.researcher.life/discovery/icons/instagram-lt-blue.svg" alt="Instagram" width="16" height="16" loading="lazy"></a></div></div></div><div _ngcontent-discovery-c1518248422 class="footer-right"><div _ngcontent-discovery-c1518248422 class="row"><div _ngcontent-discovery-c1518248422 class="col-md-6 col-lg-3 column-1"><ul _ngcontent-discovery-c1518248422 class="footer-links"><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 target="_blank" href="https://discovery.researcher.life/institutions/a">Universities &amp; Institutions</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 target="_blank" href="/publisher">Publishers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="https://discovery.researcher.life/prime"><span _ngcontent-discovery-c1518248422 class="discovery-prime-logo"> R Discovery <b _ngcontent-discovery-c1518248422>Prime</b></span><span _ngcontent-discovery-c1518248422 class="new-badge">New</span></a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/ask-rdiscovery">Ask R Discovery</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="https://researcher.life/blog" target="_blank">Blog</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 target="_blank" href="https://discovery.researcher.life/accessibility">Accessibility</a></li></ul></div><div _ngcontent-discovery-c1518248422 class="col-md-6 col-lg-3 column-2"><ul _ngcontent-discovery-c1518248422 class="footer-links"><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/trending-topics">Topics</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="https://discovery.researcher.life/journal-library/a">Journals</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?open_access_status=gold||green||bronze||hybrid&amp;sort=publication_date:desc">Open Access Papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/year-wise-research-publications/2026">Year-wise Publications</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search">Recently published papers</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/search?document_type=preprint&amp;sort=publication_date:desc">Pre prints</a></li></ul></div><div _ngcontent-discovery-c1518248422 class="col-md-6 col-lg-3 column-3"><ul _ngcontent-discovery-c1518248422 class="footer-links"><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="/questions">Questions</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="https://support.researcher.life/support/solutions/3000005033" target="_blank">FAQs</a></li><li _ngcontent-discovery-c1518248422><a _ngcontent-discovery-c1518248422 href="mailto:discovery@researcher.life">Contact us</a></li></ul></div><div _ngcontent-discovery-c1518248422 class="col-md-6 col-lg-3 column-4"><div _ngcontent-discovery-c1518248422 class="feedback-sec"><span _ngcontent-discovery-c1518248422>Lead the way for us</span><p _ngcontent-discovery-c1518248422>Your insights are needed to transform us into a better research content provider for researchers.</p><p _ngcontent-discovery-c1518248422> Share your feedback <a _ngcontent-discovery-c1518248422 href="mailto:discovery@researcher.life" aria-label="Share your feedback"> here</a>. </p><div _ngcontent-discovery-c1518248422 class="footer-social d-none d-lg-block"><div _ngcontent-discovery-c1518248422 class="social-footer"><a _ngcontent-discovery-c1518248422 href="https://www.facebook.com/RDiscoveryOfficial" target="_blank"><img _ngcontent-discovery-c1518248422 src="https://cdn.researcher.life/discovery/icons/facebook-lt-blue.svg" alt="Facebook" width="9" height="16" loading="lazy"></a><a _ngcontent-discovery-c1518248422 href="https://x.com/R_Discovery" target="_blank"><img _ngcontent-discovery-c1518248422 src="https://cdn.researcher.life/rlife/icons/twitter-lt-blue-final.svg" alt="Twitter" width="16" height="13" loading="lazy"></a><a _ngcontent-discovery-c1518248422 href="https://in.linkedin.com/showcase/researcher.life" target="_blank"><img _ngcontent-discovery-c1518248422 src="https://cdn.researcher.life/discovery/icons/linkedin-lt-blue.svg" alt="Linkedin" width="16" height="16" loading="lazy"></a><a _ngcontent-discovery-c1518248422 href="https://www.instagram.com/rdiscovery_official/" target="_blank" class="mr-0"><img _ngcontent-discovery-c1518248422 src="https://cdn.researcher.life/discovery/icons/instagram-lt-blue.svg" alt="Instagram" width="16" height="16" loading="lazy"></a></div></div></div></div></div></div></div></div><!----></footer></div><spectrum-cactus-footer _ngcontent-discovery-c1518248422 _nghost-discovery-c3556152347><div _ngcontent-discovery-c3556152347 class="cactus-footer"><div _ngcontent-discovery-c3556152347 class="footer-wrapper mx-auto"><a _ngcontent-discovery-c3556152347 target="_blank" href="https://cactusglobal.com/"><img _ngcontent-discovery-c3556152347 src="https://cdn.researcher.life/logos/cactus-reverse.svg" width="186" height="36" alt="Cactus Communications logo" class="cactus-logo"></a><div _ngcontent-discovery-c3556152347 class="cactus-footer-wrap"><div _ngcontent-discovery-c3556152347 class="cactus-footer-left"><p _ngcontent-discovery-c3556152347 class="copyright"> Copyright 2026 Cactus Communications. <span _ngcontent-discovery-c3556152347 class="rights">All rights reserved.</span></p></div><div _ngcontent-discovery-c3556152347 class="cactus-footer-right"><a _ngcontent-discovery-c3556152347 target="_blank" href="https://cactusglobal.com/privacy-policy/">Privacy Policy</a><span _ngcontent-discovery-c3556152347 class="line"></span><a _ngcontent-discovery-c3556152347 target="_blank" href="https://cactusglobal.com/cookies/">Cookies Policy</a><span _ngcontent-discovery-c3556152347 class="line"></span><a _ngcontent-discovery-c3556152347 target="_blank" href="https://cactusglobal.com/terms-of-use/">Terms of Use</a><span _ngcontent-discovery-c3556152347 class="line"></span><a _ngcontent-discovery-c3556152347 href="https://cactusglobal.com/careers/" target="_blank">Careers</a></div></div></div></div></spectrum-cactus-footer></spectrum-footer><!----></div></spectrum-error-page><!----></main><spectrum-pecr _nghost-discovery-c465599581><!----><!----></spectrum-pecr><section></section><!----><section></section><!----></spectrum-root>
+    <noscript>Please enable JavaScript to continue using this application.</noscript>
+  <script src="runtime.c852e52174936b98.js" type="module"></script><script src="polyfills.24424c7375d882f2.js" type="module"></script><script src="main.81983dbffc665d31.js" type="module"></script>
+
+<script id="discovery-state" type="application/json">{"/discovery/search/footer.json":{"data":[{"title":"Popular topics","list":[{"display_label":"Latest Artificial Intelligence papers","path":"search","query_params":{"search":"Artificial Intelligence","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Latest Nursing papers","path":"search","query_params":{"search":"Nursing","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Latest Psychology Research papers","path":"search","query_params":{"search":"Psychology Research","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Latest Sociology Research papers","path":"search","query_params":{"search":"Sociology Research","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Latest Business Research papers","path":"search","query_params":{"search":"Business Research","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Latest Marketing Research papers","path":"search","query_params":{"search":"Marketing Research","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Latest Social Research papers","path":"search","query_params":{"search":"Social Research","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Latest Education Research papers","path":"search","query_params":{"search":"Education Research","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Latest Accounting Research papers","path":"search","query_params":{"search":"Accounting Research","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Latest Mental Health papers","path":"search","query_params":{"search":"Mental Health","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Latest Economics papers","path":"search","query_params":{"search":"Economics","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Latest Education Research papers","path":"search","query_params":{"search":"Education Research","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Latest Climate Change Research papers","path":"search","query_params":{"search":"Climate Change Research","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Latest Mathematics Research papers","path":"search","query_params":{"search":"Mathematics Research","document_type":"article","sort":"publication_date:desc"}}]},{"title":"Most cited papers","list":[{"display_label":"Most cited Artificial Intelligence papers","path":"search","query_params":{"search":"Artificial Intelligence","document_type":"article","sort":"citations_count:desc"}},{"display_label":"Most cited Nursing papers","path":"search","query_params":{"search":"Nursing","document_type":"article","sort":"citations_count:desc"}},{"display_label":"Most cited Psychology Research papers","path":"search","query_params":{"search":"Psychology Research","document_type":"article","sort":"citations_count:desc"}},{"display_label":"Most cited Sociology Research papers","path":"search","query_params":{"search":"Sociology Research","document_type":"article","sort":"citations_count:desc"}},{"display_label":"Most cited Business Research papers","path":"search","query_params":{"search":"Business Research","document_type":"article","sort":"citations_count:desc"}},{"display_label":"Most cited Marketing Research papers","path":"search","query_params":{"search":"Marketing Research","document_type":"article","sort":"citations_count:desc"}},{"display_label":"Most cited Social Research papers","path":"search","query_params":{"search":"Social Research","document_type":"article","sort":"citations_count:desc"}},{"display_label":"Most cited Education Research papers","path":"search","query_params":{"search":"Education Research","document_type":"article","sort":"citations_count:desc"}},{"display_label":"Most cited Accounting Research papers","path":"search","query_params":{"search":"Accounting Research","document_type":"article","sort":"citations_count:desc"}},{"display_label":"Most cited Mental Health papers","path":"search","query_params":{"search":"Mental Health","document_type":"article","sort":"citations_count:desc"}},{"display_label":"Most cited Economics papers","path":"search","query_params":{"search":"Economics","document_type":"article","sort":"citations_count:desc"}},{"display_label":"Most cited Education Research papers","path":"search","query_params":{"search":"Education Research","document_type":"article","sort":"citations_count:desc"}},{"display_label":"Most cited Climate Change Research papers","path":"search","query_params":{"search":"Climate Change Research","document_type":"article","sort":"citations_count:desc"}},{"display_label":"Most cited Mathematics Research papers","path":"search","query_params":{"search":"Mathematics Research","document_type":"article","sort":"citations_count:desc"}}]},{"title":"Latest papers from journals","list":[{"display_label":"Scientific Reports latest papers","path":"search","query_params":{"journal":"scientific reports","document_type":"article","sort":"publication_date:desc"}},{"display_label":"PLOS ONE latest papers","path":"search","query_params":{"journal":"plos one","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Journal of Clinical Oncology latest papers","path":"search","query_params":{"journal":"journal of clinical oncology","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Nature Communications latest papers","path":"search","query_params":{"journal":"nature communications","document_type":"article","sort":"publication_date:desc"}},{"display_label":"BMC Geriatrics latest papers","path":"search","query_params":{"journal":"bmc geriatrics","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Science of The Total Environment latest papers","path":"search","query_params":{"journal":"science of the total environment","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Medical Physics latest papers","path":"search","query_params":{"journal":"medical physics","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Cureus latest papers","path":"search","query_params":{"journal":"cureus","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Cancer Research latest papers","path":"search","query_params":{"journal":"cancer research","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Chemosphere latest papers","path":"search","query_params":{"journal":"chemosphere","document_type":"article","sort":"publication_date:desc"}},{"display_label":"International Journal of Advanced Research in Science latest papers","path":"search","query_params":{"journal":"international journal of advanced research in science, communication and technology","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Communication and Technology latest papers","path":"search","query_params":{"journal":"journal of communication technology","document_type":"article","sort":"publication_date:desc"}}]},{"title":"Latest papers from institutions","list":[{"display_label":"Latest research from French National Centre for Scientific Research","path":"search","query_params":{"affiliation":"french national centre for scientific research","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Latest research from Chinese Academy of Sciences","path":"search","query_params":{"affiliation":"chinese academy of sciences","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Latest research from Harvard University","path":"search","query_params":{"affiliation":"harvard university","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Latest research from University of Toronto","path":"search","query_params":{"affiliation":"university of toronto","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Latest research from University of Michigan","path":"search","query_params":{"affiliation":"university of michigan–ann arbor","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Latest research from University College London","path":"search","query_params":{"affiliation":"university college london","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Latest research from Stanford University","path":"search","query_params":{"affiliation":"stanford university","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Latest research from The University of Tokyo","path":"search","query_params":{"affiliation":"the university of tokyo","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Latest research from Johns Hopkins University","path":"search","query_params":{"affiliation":"johns hopkins university","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Latest research from University of Washington","path":"search","query_params":{"affiliation":"university of washington","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Latest research from University of Oxford","path":"search","query_params":{"affiliation":"university of oxford","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Latest research from University of Cambridge","path":"search","query_params":{"affiliation":"university of cambridge","document_type":"article","sort":"publication_date:desc"}}]},{"title":"Popular Collections","list":[{"display_label":"Research on Reduced Inequalities","path":"search","query_params":{"concepts":"Business||Community Participation||Discrimination||Equal Opportunity||Foreign Aid||Foreign Investment||Gender Equality||Income Distribution||Income Inequality||Population Growth||Poverty Reduction||Racism||Religion||Rural","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Research on No Poverty","path":"search","query_params":{"concepts":"Basic Services||Economic Resources||Environmental||Financial Inclusion||Income Inequality||Low-income Families||Low-income Households||Poor||Poor People||Poverty Line||Quality Of Life||Resources||Social Protection||Sustainable","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Research on Gender Equality","path":"search","query_params":{"concepts":"Domestic Violence||Discrimination||Empowerment||Equal Opportunity||Gender||Gender Bias||Gender Inequality||Human Rights||Maternal Health||Sex Education||Sexual Exploitation||Social Inclusion||Universal Health Coverage||Violence||Women","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Research on Peace Justice & Strong Institutions","path":"search","query_params":{"concepts":"Abuse||Child Welfare||Conflict Resolution||Crime||Decision-making||Environmental Management||Governance||Institutions||Justice||Physical Abuse||Rule Of Law||Security Threats||Sexual Abuse||Water Management","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Research on Affordable & Clean Energy","path":"search","query_params":{"concepts":"Carbon||Energy||Energy Demand||Energy Efficiency||Energy Harvesting||Greenhouse Gas Emissions||Photovoltaic||Photovoltaic System||Renewable||Renewable Energy||Solar Energy||Sustainable Energy||Thermal Energy||Wind Power||Wind Turbine","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Research on Quality Education","path":"search","query_params":{"concepts":"Cultural Diversity||Early Childhood||Education||Gender Equality||International Cooperation||Learning Environment||Learning Experience||lifelong learning||Literacy||Primary Education||Primary School||School||Secondary Education||Teacher Training||Vocational Education","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Research on Clean Water & Sanitation","path":"search","query_params":{"concepts":"Defecation||Drought||Pollution||River Basin||Wastewater||Water||Water Availability||Water Pollution||Water Quality||Water Resources Management||Water Scarcity||Wastewater Treatment||Water Treatment||Water Supply","document_type":"article","sort":"publication_date:desc"}},{"display_label":"Research on COVID-19","path":"covid-research"},{"display_label":"Research on Monkeypox","path":"monkeypox-research-collection"},{"display_label":"Research on Medical Specialties","path":"medical-specialties-and-healthcare-research-papers"},{"display_label":"Research on Climate Justice","path":"climate-justice-collection"}]}]}}</script></body></html>
